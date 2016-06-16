@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="en-us" Name="AndroidApp_en-us">
+    <CommandPrefix> feel </CommandPrefix>
+    <Example> Start navigating/navigation </Example>
+    <Command Name="feelSpace">
+      <Example> Start navigation </Example>
+      <ListenFor> {option} {action} </ListenFor>
+      <Feedback> feel the space around you </Feedback>
+      <Navigate/>
+    </Command>
+    
+    <PhraseList Label="option">
+      <Item> start </Item>
+      <Item> stop </Item>
+    </PhraseList>
+    <PhraseList Label="action">
+      <Item> navigation </Item>
+      <Item> navigating </Item>
+      <Item> guiding </Item>
+    </PhraseList>
+    
+
+   
+  </CommandSet>
+</VoiceCommands>

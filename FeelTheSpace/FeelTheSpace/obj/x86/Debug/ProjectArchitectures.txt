@@ -1,1 +1,1 @@
-C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\FeelTheSpace.csproj;x86
+C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\FeelTheSpace.csproj;x86

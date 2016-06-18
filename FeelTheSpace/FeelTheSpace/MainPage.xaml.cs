@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using Windows.Devices.Bluetooth.Rfcomm;
@@ -38,8 +39,13 @@ namespace FeelTheSpace
         public StreamSocket _socket;
         public DataReader dataReaderObject;
         ObservableCollection<PairedDeviceInfo> _pairedDevices;
+   
 
         public CancellationTokenSource ReadCancellationTokenSource;
+
+        public List<List<int>> sensorValues = new List<List<int>>();
+
+        public List<string> listStringSensorValues;
 
 
         public MainPage()
@@ -53,14 +59,15 @@ namespace FeelTheSpace
             //i stavlja ih u kolekciju potencijalnih uredjaja za uparivanje
             InitializeRfcommDeviceService();
 
-          
+            for (int i = 0; i < numberOfSensors; i++)
+            {
+                sensorValues.Add(new List<int>());
+            }
 
-            
+            listStringSensorValues = new List<string>();
         }
 
-       
-
-       
+        
 
         private void InitializeSounds()
         {
@@ -76,12 +83,13 @@ namespace FeelTheSpace
         {
             try
             {
+                //Pronadji sve uredjaje koji su dostupni putem bluetooth-a
                 DeviceInformationCollection DeviceInfoCollection = await DeviceInformation.FindAllAsync(RfcommDeviceService.GetDeviceSelector(RfcommServiceId.SerialPort));
 
 
                 var numDevices = DeviceInfoCollection.Count();
 
-                // By clearing the backing data, we are effectively clearing the ListBox
+                //kreiraj praznu kolekciju uparenih uredjaja
                 _pairedDevices = new ObservableCollection<PairedDeviceInfo>();
                 _pairedDevices.Clear();
 
@@ -91,7 +99,7 @@ namespace FeelTheSpace
                 }
                 else
                 {
-                    // Found paired devices.
+                    // Nadjeni upareni uredjaji
                     foreach (var deviceInfo in DeviceInfoCollection)
                     {
                         _pairedDevices.Add(new PairedDeviceInfo(deviceInfo));
@@ -116,6 +124,7 @@ namespace FeelTheSpace
             DeviceInformation DeviceInfo = null;
             PairedDeviceInfo pairedDevice = null;
 
+            //Prodji kroz uparene uredjaje i probaj naci HC-05 bluetooth modul
             for (int i = 0; i < _pairedDevices.Count(); i++)
             {
                 if (_pairedDevices[i].Name == "HC-05")
@@ -130,18 +139,19 @@ namespace FeelTheSpace
             bool success = true;
             try
             {
+                //Kreiraj servis koristeci ID HC-05 modula (ako je uspjesno nadjen)
                 _service = await RfcommDeviceService.FromIdAsync(DeviceInfo.Id);
 
                 if (_socket != null)
                 {
-                    // Disposing the socket with close it and release all resources associated with the socket
+                    // Ako vec postoji nekih stvari u socket-u, prvo ocisti sve resurse
                     _socket.Dispose();
                 }
 
                 _socket = new StreamSocket();
                 try
                 {
-                    // Note: If either parameter is null or empty, the call will throw an exception
+                    // Ako je bilo koji od dva parametra null ili prazan, ovaj poziv ce baciti izuzetak
                     await _socket.ConnectAsync(_service.ConnectionHostName, _service.ConnectionServiceName);
                 }
                 catch (Exception ex)
@@ -156,7 +166,7 @@ namespace FeelTheSpace
                     string msg = String.Format("Connected to {0}!", _socket.Information.RemoteAddress.DisplayName);
                     Debug.WriteLine(msg);
                     //Metoda koja aktivira slusanje
-                    //Listen();
+                    Listen();
                 }
             }
             catch (Exception ex)
@@ -169,20 +179,23 @@ namespace FeelTheSpace
 
         private async void Listen()
         {
+           
             try
-            {
+           {
+                
                 ReadCancellationTokenSource = new CancellationTokenSource();
                 if (_socket.InputStream != null)
                 {
                     dataReaderObject = new DataReader(_socket.InputStream);
 
-                    // keep reading the serial input
+                    // Nastavi citati serial input
                     while (true)
                     {
+                        await Task.Delay(999);
                         await ReadAsync(ReadCancellationTokenSource.Token);
                     }
                 }
-            }
+           }
             catch (Exception ex)
             {
               
@@ -208,7 +221,7 @@ namespace FeelTheSpace
             }
         }
 
-
+   
         private async Task ReadAsync(CancellationToken cancellationToken)
         {
             Task<UInt32> loadAsyncTask;
@@ -227,14 +240,10 @@ namespace FeelTheSpace
             // Launch the task and wait
             UInt32 bytesRead = await loadAsyncTask;
 
-            List<List<int>> sensorValues = new List<List<int>>();
 
-            int[] allSensorValues;
 
-            for (int i = 0; i < numberOfSensors; i++)
-            {
-                sensorValues.Add(new List<int>());
-            }
+            string[] tempList;
+         
 
             int sensorCounter = 0;
 
@@ -247,21 +256,24 @@ namespace FeelTheSpace
                     Debug.WriteLine(recvdtxt);
                     this.textBoxRecvdText.Text += recvdtxt;
 
-                    allSensorValues = recvdtxt.Split(' ').Select(n => Convert.ToInt32(n)).ToArray();
+                    tempList = Regex.Split(recvdtxt, @"\D+");
+                    listStringSensorValues.AddRange(tempList.ToList());
 
-                    if (allSensorValues.Length == 150)
+                    if (listStringSensorValues.Count >= 40)
                     {
-                        for (int i = 0; i < 150; i++)
+                        foreach (string value in listStringSensorValues)
                         {
-                            sensorValues[sensorCounter].Add(allSensorValues[i]);
+                            if (value == "") continue;
+                            int i = int.Parse(value);
+                            sensorValues[sensorCounter].Add(i);
                             sensorCounter++;
                             if (sensorCounter == numberOfSensors)
                                 sensorCounter = 0;
 
                         }
-                        Array.Clear(allSensorValues, 0, 149);
-
+                        listStringSensorValues.Clear();
                     }
+
 
                 }
                 catch (Exception ex)

@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ca7c4c90-4f4a-466b-92ee-58c69ae49cb4</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x86\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>47842140A4DDBC448B2827D28B8B6E9B124D9CD688EA7B9DC670F9868BD4DA9F</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ca7c4c90-4f4a-466b-92ee-58c69ae49cb4_1.0.0.0_x86__k6stbrv02vsqm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ca7c4c90-4f4a-466b-92ee-58c69ae49cb4_k6stbrv02vsqm!App</RegisteredUserModeAppID>
@@ -19,16 +19,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-13T13:38:46.672</Modified>
+      <Modified>2016-06-17T12:16:58.420</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\bin\x86\Debug\FeelTheSpace.exe">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\FeelTheSpace.exe">
       <PackagePath>entrypoint\FeelTheSpace.exe</PackagePath>
-      <Modified>2016-06-13T13:38:46.136</Modified>
+      <Modified>2016-06-17T12:16:57.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tile\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -442,73 +442,73 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-10-16T11:22:51.282</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\1.mp3">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\1.mp3">
       <PackagePath>Assets\1.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\2.mp3">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\2.mp3">
       <PackagePath>Assets\2.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\3.mp3">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\3.mp3">
       <PackagePath>Assets\3.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\4.mp3">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\4.mp3">
       <PackagePath>Assets\4.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\5.mp3">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\5.mp3">
       <PackagePath>Assets\5.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\6.mp3">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\6.mp3">
       <PackagePath>Assets\6.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\FeelTheSpaceVoice.xml">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\FeelTheSpaceVoice.xml">
       <PackagePath>FeelTheSpaceVoice.xml</PackagePath>
       <Modified>2015-12-12T12:53:48.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-06-13T09:21:24.897</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-07-20T17:06:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-20T17:06:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-20T17:06:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-20T17:06:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-20T17:06:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-20T17:06:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-07-20T17:06:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\bin\x86\Debug\FeelTheSpace.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\FeelTheSpace.xr.xml">
       <PackagePath>FeelTheSpace.xr.xml</PackagePath>
       <Modified>2016-06-13T12:54:05.895</Modified>
     </AppxPackagedFile>
@@ -516,13 +516,13 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-06-06T13:59:41.423</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-13T12:54:07.149</Modified>
+      <Modified>2016-06-16T11:50:50.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\FeelTheSpace\FeelTheSpace\bin\x86\Debug\Core\FeelTheSpace.exe">
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\Core\FeelTheSpace.exe">
       <PackagePath>FeelTheSpace.exe</PackagePath>
-      <Modified>2016-06-13T13:38:46.668</Modified>
+      <Modified>2016-06-17T12:16:58.416</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

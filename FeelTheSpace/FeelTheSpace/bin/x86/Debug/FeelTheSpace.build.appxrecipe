@@ -330,23 +330,23 @@
     <AppxPackagedFile Include="C:\Users\Tile\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\1.mp3">
-      <PackagePath>Assets\1.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\D_blize.mp3">
+      <PackagePath>Assets\D_blize.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\2.mp3">
-      <PackagePath>Assets\2.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\D_dalje.mp3">
+      <PackagePath>Assets\D_dalje.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\3.mp3">
-      <PackagePath>Assets\3.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\C_blize.mp3">
+      <PackagePath>Assets\C_blize.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\4.mp3">
-      <PackagePath>Assets\4.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\C_dalje.mp3">
+      <PackagePath>Assets\C_dalje.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\5.mp3">
-      <PackagePath>Assets\5.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\L_blize.mp3">
+      <PackagePath>Assets\L_blize.mp3</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\6.mp3">
-      <PackagePath>Assets\6.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\L_dalje.mp3">
+      <PackagePath>Assets\L_dalje.mp3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\FeelTheSpaceVoice.xml">
       <PackagePath>FeelTheSpaceVoice.xml</PackagePath>

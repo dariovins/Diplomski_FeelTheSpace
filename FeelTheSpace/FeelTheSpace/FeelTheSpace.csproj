@@ -108,12 +108,12 @@
     <None Include="FeelTheSpace_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\1.mp3" />
-    <Content Include="Assets\2.mp3" />
-    <Content Include="Assets\3.mp3" />
-    <Content Include="Assets\4.mp3" />
-    <Content Include="Assets\5.mp3" />
-    <Content Include="Assets\6.mp3" />
+    <Content Include="Assets\D_blize.mp3" />
+    <Content Include="Assets\D_dalje.mp3" />
+    <Content Include="Assets\C_blize.mp3" />
+    <Content Include="Assets\C_dalje.mp3" />
+    <Content Include="Assets\L_blize.mp3" />
+    <Content Include="Assets\L_dalje.mp3" />
     <Content Include="FeelTheSpaceVoice.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

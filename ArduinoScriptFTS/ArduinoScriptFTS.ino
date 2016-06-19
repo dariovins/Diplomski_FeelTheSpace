@@ -24,8 +24,8 @@ NewPing sonar[SONAR_NUM] = {     // Niz senzora
 
 void setup() {
   Serial.begin(9600);
-  pingTimer[0] = millis() + 75;           // First ping starts at 75ms, gives time for the Arduino to chill before starting.
-  for (uint8_t i = 1; i < SONAR_NUM; i++) // Set the starting time for each sensor.
+  pingTimer[0] = millis() + 75;           // Prvi ping pocinje na 75 ms
+  for (uint8_t i = 1; i < SONAR_NUM; i++) // Postavi pocetke za sve senzore
     pingTimer[i] = pingTimer[i - 1] + PING_INTERVAL;
 }
 
@@ -51,13 +51,27 @@ void sendResults()
       side = sides[i];
     }
   }
-  Serial.println(side + value);
-  restartValues();
+    if(value <=99 && value >=10)
+   {
+    Serial.print(side + value+ "x");
+    restartValues();
+   }
+   else if(value <=120 && value >=100)
+  {
+    Serial.print(side + value);
+    restartValues();
+  }
+   else if(value <=9 && value >=1)
+   {
+    Serial.print(side + value + "xx");
+       restartValues();
+   }
+  
 }
 
 void restartValues()
 {
-  value = 9999;
+  value = 999;
   side = "x ";
 }
 

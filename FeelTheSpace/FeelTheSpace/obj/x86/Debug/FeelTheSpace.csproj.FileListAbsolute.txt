@@ -303,7 +303,6 @@ C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x
 C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\System.Xml.XDocument.dll
 C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\System.Xml.XmlSerializer.dll
-C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x86\Debug\FeelTheSpace.csprojResolveAssemblyReference.cache
 C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x86\Debug\App.g.i.cs
 C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x86\Debug\App.g.cs
 C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x86\Debug\MainPage.g.i.cs
@@ -382,3 +381,4 @@ C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x
 C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\obj\x86\Debug\FeelTheSpace.csprojResolveAssemblyReference.cache

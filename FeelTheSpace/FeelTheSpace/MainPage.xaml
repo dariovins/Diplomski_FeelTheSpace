@@ -12,12 +12,12 @@
     </Page.Resources>
 
     <Grid  x:Name="Layout" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <MediaElement Name="zvuk1" Source="Assets/1.mp3" Volume="1" AutoPlay="False"/>
-        <MediaElement Name="zvuk2" Source="Assets/2.mp3" Volume="1" AutoPlay="False"/>
-        <MediaElement Name="zvuk3" Source="Assets/3.mp3" Volume="1" AutoPlay="False"/>
-        <MediaElement Name="zvuk4" Source="Assets/4.mp3" Volume="1" AutoPlay="False"/>
-        <MediaElement Name="zvuk5" Source="Assets/5.mp3" Volume="1" AutoPlay="False"/>
-        <MediaElement Name="zvuk6" Source="Assets/6.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="D_blize" Source="Assets/D_blize.mp3" Volume="0.4" AutoPlay="False"/>
+        <MediaElement Name="D_dalje" Source="Assets/D_dalje.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="C_blize" Source="Assets/C_blize.mp3" Volume="0.7" AutoPlay="False"/>
+        <MediaElement Name="C_dalje" Source="Assets/C_dalje.mp3" Volume="0.2" AutoPlay="False"/>
+        <MediaElement Name="L_blize" Source="Assets/L_blize.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="L_dalje" Source="Assets/L_dalje.mp3" Volume="0.6" AutoPlay="False"/>
 
 
         <StackPanel Orientation="Vertical">

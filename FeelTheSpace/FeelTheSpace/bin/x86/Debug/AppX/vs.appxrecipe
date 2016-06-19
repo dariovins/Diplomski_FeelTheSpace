@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-06-17T12:16:58.420</Modified>
+      <Modified>2016-06-19T13:30:22.309</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\FeelTheSpace.exe">
       <PackagePath>entrypoint\FeelTheSpace.exe</PackagePath>
-      <Modified>2016-06-17T12:16:57.928</Modified>
+      <Modified>2016-06-19T13:30:21.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tile\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -442,28 +442,28 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-10-16T11:22:51.282</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\1.mp3">
-      <PackagePath>Assets\1.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\D_blize.mp3">
+      <PackagePath>Assets\D_blize.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\2.mp3">
-      <PackagePath>Assets\2.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\D_dalje.mp3">
+      <PackagePath>Assets\D_dalje.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\3.mp3">
-      <PackagePath>Assets\3.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\C_blize.mp3">
+      <PackagePath>Assets\C_blize.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\4.mp3">
-      <PackagePath>Assets\4.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\C_dalje.mp3">
+      <PackagePath>Assets\C_dalje.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\5.mp3">
-      <PackagePath>Assets\5.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\L_blize.mp3">
+      <PackagePath>Assets\L_blize.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.108</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\6.mp3">
-      <PackagePath>Assets\6.mp3</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\Assets\L_dalje.mp3">
+      <PackagePath>Assets\L_dalje.mp3</PackagePath>
       <Modified>2015-12-12T07:47:53.108</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\FeelTheSpaceVoice.xml">
@@ -518,11 +518,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-06-16T11:50:50.536</Modified>
+      <Modified>2016-06-19T12:35:38.223</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\Core\FeelTheSpace.exe">
       <PackagePath>FeelTheSpace.exe</PackagePath>
-      <Modified>2016-06-17T12:16:58.416</Modified>
+      <Modified>2016-06-19T13:30:22.305</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

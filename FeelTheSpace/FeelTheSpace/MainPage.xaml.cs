@@ -33,19 +33,16 @@ namespace FeelTheSpace
     {
 
         public List<MediaElement> sounds = new List<MediaElement>();
-        public int numberOfSensors = 1;
+        public int numberOfSensors = 3;
 
         public RfcommDeviceService _service;
         public StreamSocket _socket;
         public DataReader dataReaderObject;
         ObservableCollection<PairedDeviceInfo> _pairedDevices;
-   
+
+        MediaElement active = new MediaElement();
 
         public CancellationTokenSource ReadCancellationTokenSource;
-
-        public List<List<int>> sensorValues = new List<List<int>>();
-
-        public List<string> listStringSensorValues;
 
 
         public MainPage()
@@ -58,25 +55,18 @@ namespace FeelTheSpace
             //Metoda koja pronalazi sve dostupne uparene Bluetooth module
             //i stavlja ih u kolekciju potencijalnih uredjaja za uparivanje
             InitializeRfcommDeviceService();
-
-            for (int i = 0; i < numberOfSensors; i++)
-            {
-                sensorValues.Add(new List<int>());
-            }
-
-            listStringSensorValues = new List<string>();
         }
 
-        
+
 
         private void InitializeSounds()
         {
-            sounds.Add(zvuk1);
-            sounds.Add(zvuk2);
-            sounds.Add(zvuk3);
-            sounds.Add(zvuk4);
-            sounds.Add(zvuk5);
-            sounds.Add(zvuk6);
+            sounds.Add(D_blize);
+            sounds.Add(D_dalje);
+            sounds.Add(C_blize);
+            sounds.Add(C_dalje);
+            sounds.Add(L_blize);
+            sounds.Add(L_dalje);
         }
 
         private async void InitializeRfcommDeviceService()
@@ -116,7 +106,7 @@ namespace FeelTheSpace
             {
                 Debug.WriteLine("InitializeRfcommDeviceService: " + ex.Message);
             }
-          
+
         }
 
         private async void InitializeHC05Connection()
@@ -162,7 +152,7 @@ namespace FeelTheSpace
                 // If the connection was successful, the RemoteAddress field will be populated
                 if (success)
                 {
-                    
+
                     string msg = String.Format("Connected to {0}!", _socket.Information.RemoteAddress.DisplayName);
                     Debug.WriteLine(msg);
                     //Metoda koja aktivira slusanje
@@ -179,26 +169,29 @@ namespace FeelTheSpace
 
         private async void Listen()
         {
-           
+
             try
-           {
-                
+            {
+
                 ReadCancellationTokenSource = new CancellationTokenSource();
                 if (_socket.InputStream != null)
                 {
                     dataReaderObject = new DataReader(_socket.InputStream);
-
                     // Nastavi citati serial input
                     while (true)
                     {
-                        await Task.Delay(999);
+                        while (dataReaderObject.UnconsumedBufferLength != 0)
+                        {
+                            await Task.Delay(200);
+                            Debug.WriteLine(dataReaderObject.UnconsumedBufferLength);
+                        }
                         await ReadAsync(ReadCancellationTokenSource.Token);
                     }
                 }
-           }
+            }
             catch (Exception ex)
             {
-              
+
                 this.textBlockBTName.Text = "";
                 this.TxtBlock_SelectedID.Text = "";
                 if (ex.GetType().Name == "TaskCanceledException")
@@ -221,32 +214,31 @@ namespace FeelTheSpace
             }
         }
 
-   
+
         private async Task ReadAsync(CancellationToken cancellationToken)
         {
             Task<UInt32> loadAsyncTask;
 
-            uint ReadBufferLength = 1024;
+            uint ReadBufferLength = 5;
 
             // If task cancellation was requested, comply
             cancellationToken.ThrowIfCancellationRequested();
 
             // Set InputStreamOptions to complete the asynchronous read operation when one or more bytes is available
-            dataReaderObject.InputStreamOptions = InputStreamOptions.Partial;
+            dataReaderObject.InputStreamOptions = InputStreamOptions.ReadAhead;
+
 
             // Create a task object to wait for data on the serialPort.InputStream
             loadAsyncTask = dataReaderObject.LoadAsync(ReadBufferLength).AsTask(cancellationToken);
+
 
             // Launch the task and wait
             UInt32 bytesRead = await loadAsyncTask;
 
 
 
-            string[] tempList;
-         
-
-            int sensorCounter = 0;
-
+            string[] value;
+            char side;
 
             if (bytesRead > 0)
             {
@@ -254,25 +246,11 @@ namespace FeelTheSpace
                 {
                     string recvdtxt = dataReaderObject.ReadString(bytesRead);
                     Debug.WriteLine(recvdtxt);
-                    this.textBoxRecvdText.Text += recvdtxt;
+                    //this.textBoxRecvdText.Text += recvdtxt;
 
-                    tempList = Regex.Split(recvdtxt, @"\D+");
-                    listStringSensorValues.AddRange(tempList.ToList());
-
-                    if (listStringSensorValues.Count >= 40)
-                    {
-                        foreach (string value in listStringSensorValues)
-                        {
-                            if (value == "") continue;
-                            int i = int.Parse(value);
-                            sensorValues[sensorCounter].Add(i);
-                            sensorCounter++;
-                            if (sensorCounter == numberOfSensors)
-                                sensorCounter = 0;
-
-                        }
-                        listStringSensorValues.Clear();
-                    }
+                    value = Regex.Split(recvdtxt, @"\D+");
+                    side = recvdtxt[0];
+                    await playSound(side, value[1]);
 
 
                 }
@@ -282,6 +260,33 @@ namespace FeelTheSpace
                 }
 
             }
+
+
+        }
+
+        private async Task playSound(char side, string v)
+        {
+            if (L_blize.CurrentState == MediaElementState.Playing || L_dalje.CurrentState == MediaElementState.Playing || D_blize.CurrentState == MediaElementState.Playing || D_dalje.CurrentState == MediaElementState.Playing || C_blize.CurrentState == MediaElementState.Playing || C_dalje.CurrentState == MediaElementState.Playing)
+                return;
+            if (side == 'l')
+            {
+                if (Convert.ToInt16(v) <= 60)
+                    L_blize.Play();
+                else L_dalje.Play();
+            }
+            else if (side == 'c')
+            {
+                if (Convert.ToInt16(v) <= 60)
+                    C_blize.Play();
+                else C_dalje.Play();
+            }
+            else if (side == 'r')
+            {
+                if (Convert.ToInt16(v) <= 60)
+                    D_blize.Play();
+                else D_dalje.Play();
+            }
+
 
 
         }

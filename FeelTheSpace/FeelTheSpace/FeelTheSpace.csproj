@@ -108,12 +108,23 @@
     <None Include="FeelTheSpace_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\D_blize.mp3" />
-    <Content Include="Assets\D_dalje.mp3" />
-    <Content Include="Assets\C_blize.mp3" />
-    <Content Include="Assets\C_dalje.mp3" />
-    <Content Include="Assets\L_blize.mp3" />
-    <Content Include="Assets\L_dalje.mp3" />
+    <Content Include="Assets\Center\C1_beep.mp3" />
+    <Content Include="Assets\Center\C2_beep.mp3" />
+    <Content Include="Assets\Center\C3_beep.mp3" />
+    <Content Include="Assets\Intro\left_intro.mp3" />
+    <Content Include="Assets\Intro\right_intro.mp3" />
+    <Content Include="Assets\LC\LC1_beep.mp3" />
+    <Content Include="Assets\LC\LC2_beep.mp3" />
+    <Content Include="Assets\LC\LC3_beep.mp3" />
+    <Content Include="Assets\Left\L1_beep.mp3" />
+    <Content Include="Assets\Left\L2_beep.mp3" />
+    <Content Include="Assets\Left\L3_beep.mp3" />
+    <Content Include="Assets\RC\RC1_beep.mp3" />
+    <Content Include="Assets\RC\RC2_beep.mp3" />
+    <Content Include="Assets\RC\RC3_beep.mp3" />
+    <Content Include="Assets\Right\R1_beep.mp3" />
+    <Content Include="Assets\Right\R2_beep.mp3" />
+    <Content Include="Assets\Right\R3_beep.mp3" />
     <Content Include="FeelTheSpaceVoice.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -134,6 +145,7 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

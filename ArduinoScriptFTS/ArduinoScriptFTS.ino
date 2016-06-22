@@ -8,9 +8,11 @@ unsigned long pingTimer[SONAR_NUM]; // Cuva vremena kad bi se prozivanje za svak
 unsigned int cm[SONAR_NUM];         // Niz pinganih udaljenosti
 uint8_t currentSensor = 0;          // Prati aktivni senzor
 
-String sides [3] = {"l ", "c ", "r "};
+String sides [5] = {"l ", "c ", "r ", "a ", "b "};
 int value = 9999;
 String side = "x ";
+
+int globalCounter = 9;
 
 NewPing sonar[SONAR_NUM] = {     // Niz senzora
   NewPing(4, 5, MAX_DISTANCE), // Svaki senzor ima trig (trigger) pin, echo pin i maksimalnu udaljenost
@@ -34,7 +36,7 @@ void loop() {
     if (millis() >= pingTimer[i]) {         // Da li je ovo senzor koji se treba pingat
       pingTimer[i] += PING_INTERVAL * SONAR_NUM;  // Postavi sljedeci senzor koji treba pingat
       if (i == 0 && currentSensor == SONAR_NUM - 1) sendResults(); // // Jedan ciklus pinganja gotov, pozovi funkciju za slanje najmanjeg
-      currentSensor = i;      
+      currentSensor = i;
       cm[currentSensor] = sonar[currentSensor].ping_median(10) / US_ROUNDTRIP_CM;
     }
   }
@@ -43,35 +45,46 @@ void loop() {
 
 void sendResults()
 {
-  
+
   for (uint8_t i = 0; i < SONAR_NUM; i++) {
-    if(cm[i]!=0 && cm[i]<value)
+    if (cm[i] != 0 && cm[i] < value)
     {
       value = cm[i];
       side = sides[i];
+      globalCounter = i;
     }
   }
-    if(value <=99 && value >=10)
-   {
-    Serial.print(side + value+ "x");
+
+  if (globalCounter == 0 && abs(cm[1] - value) <= 10 || globalCounter == 1 && abs(cm[0] - value) <= 10)
+  {
+    side = sides[3];
+  }
+  else if (globalCounter == 1 && abs(cm[2] - value) <= 10 || globalCounter == 2 && abs(cm[1] - value) <= 10)
+  {
+    side = sides[4];
+  }
+  if (value <= 99 && value >= 10)
+  {
+    Serial.print(side + value + "x");
     restartValues();
-   }
-   else if(value <=120 && value >=100)
+  }
+  else if (value <= 250 && value >= 100)
   {
     Serial.print(side + value);
     restartValues();
   }
-   else if(value <=9 && value >=1)
-   {
+  else if (value <= 9 && value >= 1)
+  {
     Serial.print(side + value + "xx");
-       restartValues();
-   }
-  
+    restartValues();
+  }
+
 }
 
 void restartValues()
 {
   value = 999;
   side = "x ";
+  globalCounter = 9;
 }
 

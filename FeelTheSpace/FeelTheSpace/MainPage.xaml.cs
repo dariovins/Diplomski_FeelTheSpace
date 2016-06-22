@@ -33,14 +33,12 @@ namespace FeelTheSpace
     {
 
         public List<MediaElement> sounds = new List<MediaElement>();
-        public int numberOfSensors = 3;
 
         public RfcommDeviceService _service;
         public StreamSocket _socket;
         public DataReader dataReaderObject;
         ObservableCollection<PairedDeviceInfo> _pairedDevices;
 
-        MediaElement active = new MediaElement();
 
         public CancellationTokenSource ReadCancellationTokenSource;
 
@@ -59,18 +57,35 @@ namespace FeelTheSpace
 
 
 
-        private void InitializeSounds()
+        private async void InitializeSounds()
         {
-            sounds.Add(D_blize);
-            sounds.Add(D_dalje);
-            sounds.Add(C_blize);
-            sounds.Add(C_dalje);
-            sounds.Add(L_blize);
-            sounds.Add(L_dalje);
+            //sounds.Add(D_blize);
+            //sounds.Add(D_dalje);
+            //sounds.Add(C_blize);
+            //sounds.Add(C_dalje);
+            //sounds.Add(L_blize);
+            //sounds.Add(L_dalje);
+            //sounds.Add(C1_beep);
+            await PlayIntro();
+            
+        }
+
+        public async Task PlayIntro()
+        {
+            await Task.Delay(1000);
+            right_intro.Play();
+            while (right_intro.CurrentState == MediaElementState.Playing)
+                continue;
+            await Task.Delay(1000);
+            left_intro.Play();
+
+            await Task.Delay(1500);
+
         }
 
         private async void InitializeRfcommDeviceService()
         {
+            await Task.Delay(3000);
             try
             {
                 //Pronadji sve uredjaje koji su dostupni putem bluetooth-a
@@ -266,25 +281,70 @@ namespace FeelTheSpace
 
         private async Task playSound(char side, string v)
         {
-            if (L_blize.CurrentState == MediaElementState.Playing || L_dalje.CurrentState == MediaElementState.Playing || D_blize.CurrentState == MediaElementState.Playing || D_dalje.CurrentState == MediaElementState.Playing || C_blize.CurrentState == MediaElementState.Playing || C_dalje.CurrentState == MediaElementState.Playing)
-                return;
-            if (side == 'l')
+            //if (L_blize.CurrentState == MediaElementState.Playing || L_dalje.CurrentState == MediaElementState.Playing || D_blize.CurrentState == MediaElementState.Playing || D_dalje.CurrentState == MediaElementState.Playing || C_blize.CurrentState == MediaElementState.Playing || C_dalje.CurrentState == MediaElementState.Playing)
+            //    return;
+            if (C1_beep.CurrentState == MediaElementState.Playing || 
+                C2_beep.CurrentState == MediaElementState.Playing ||
+                C3_beep.CurrentState == MediaElementState.Playing || 
+                R1_beep.CurrentState == MediaElementState.Playing ||
+                R2_beep.CurrentState == MediaElementState.Playing || 
+                R3_beep.CurrentState == MediaElementState.Playing || 
+                L1_beep.CurrentState == MediaElementState.Playing || 
+                L2_beep.CurrentState == MediaElementState.Playing || 
+                L3_beep.CurrentState == MediaElementState.Playing ||
+                RC1_beep.CurrentState == MediaElementState.Playing ||
+                RC2_beep.CurrentState == MediaElementState.Playing || 
+                RC3_beep.CurrentState == MediaElementState.Playing ||
+                LC1_beep.CurrentState == MediaElementState.Playing ||
+                LC2_beep.CurrentState == MediaElementState.Playing ||
+                LC3_beep.CurrentState == MediaElementState.Playing ||
+                right_intro.CurrentState == MediaElementState.Playing||
+                left_intro.CurrentState == MediaElementState.Playing)
+                   return;
+                if (side == 'l')
             {
-                if (Convert.ToInt16(v) <= 60)
-                    L_blize.Play();
-                else L_dalje.Play();
+                if (Convert.ToInt16(v) <= 80)
+                    L1_beep.Play();
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                    L2_beep.Play();
+                else
+                    L3_beep.Play();
             }
             else if (side == 'c')
             {
-                if (Convert.ToInt16(v) <= 60)
-                    C_blize.Play();
-                else C_dalje.Play();
+                if (Convert.ToInt16(v) <= 80)
+                    C1_beep.Play();
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                    C2_beep.Play();
+                else
+                    C3_beep.Play();
             }
             else if (side == 'r')
             {
-                if (Convert.ToInt16(v) <= 60)
-                    D_blize.Play();
-                else D_dalje.Play();
+                if (Convert.ToInt16(v) <= 80)
+                    R1_beep.Play();
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                    R2_beep.Play();
+                else
+                    R3_beep.Play();
+            }
+            else if(side == 'a')
+            {
+                if (Convert.ToInt16(v) <= 80)
+                    LC1_beep.Play();
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                    LC2_beep.Play();
+                else
+                    LC3_beep.Play();
+            }
+            else if(side== 'b')
+            {
+                if (Convert.ToInt16(v) <= 80)
+                    RC1_beep.Play();
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                    RC2_beep.Play();
+                else
+                    RC3_beep.Play();
             }
 
 

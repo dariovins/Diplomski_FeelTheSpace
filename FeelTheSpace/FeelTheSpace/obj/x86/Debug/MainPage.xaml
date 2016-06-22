@@ -12,32 +12,44 @@
     </Page.Resources>
 
     <Grid x:ConnectionId='2'  x:Name="Layout" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <MediaElement x:ConnectionId='3' Name="D_blize" Source="Assets/D_blize.mp3" Volume="0.4" AutoPlay="False"/>
-        <MediaElement x:ConnectionId='4' Name="D_dalje" Source="Assets/D_dalje.mp3" Volume="1" AutoPlay="False"/>
-        <MediaElement x:ConnectionId='5' Name="C_blize" Source="Assets/C_blize.mp3" Volume="0.7" AutoPlay="False"/>
-        <MediaElement x:ConnectionId='6' Name="C_dalje" Source="Assets/C_dalje.mp3" Volume="0.2" AutoPlay="False"/>
-        <MediaElement x:ConnectionId='7' Name="L_blize" Source="Assets/L_blize.mp3" Volume="1" AutoPlay="False"/>
-        <MediaElement x:ConnectionId='8' Name="L_dalje" Source="Assets/L_dalje.mp3" Volume="0.6" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='3' Name="C1_beep" Source="Assets/Center/C1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='4' Name="C2_beep" Source="Assets/Center/C2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='5' Name="C3_beep" Source="Assets/Center/C3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='6' Name="L1_beep" Source="Assets/Left/L1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='7' Name="L2_beep" Source="Assets/Left/L2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='8' Name="L3_beep" Source="Assets/Left/L3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='9' Name="R1_beep" Source="Assets/Right/R1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='10' Name="R2_beep" Source="Assets/Right/R2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='11' Name="R3_beep" Source="Assets/Right/R3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='12' Name="RC1_beep" Source="Assets/RC/RC1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='13' Name="RC2_beep" Source="Assets/RC/RC2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='14' Name="RC3_beep" Source="Assets/RC/RC3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='15' Name="LC1_beep" Source="Assets/LC/LC1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='16' Name="LC2_beep" Source="Assets/LC/LC2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='17' Name="LC3_beep" Source="Assets/LC/LC3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement x:ConnectionId='18' Name="left_intro" Source="Assets/Intro/left_intro.mp3" Volume="1" AutoPlay="False"  Balance="-1"/>
+        <MediaElement x:ConnectionId='19' Name="right_intro" Source="Assets/Intro/right_intro.mp3" Volume="1" AutoPlay="False" Balance="1"/>
+
 
 
         <StackPanel Orientation="Vertical">
             <StackPanel Orientation="Vertical">
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock x:ConnectionId='15' x:Name="ID" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="Wrap" Text="Id: " VerticalAlignment="Top" Width="28"/>
-                    <TextBlock x:ConnectionId='16' x:Name="TxtBlock_SelectedID" HorizontalAlignment="Left" Height="25" Margin="10" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top" Width="956"/>
+                    <TextBlock x:ConnectionId='26' x:Name="ID" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="Wrap" Text="Id: " VerticalAlignment="Top" Width="28"/>
+                    <TextBlock x:ConnectionId='27' x:Name="TxtBlock_SelectedID" HorizontalAlignment="Left" Height="25" Margin="10" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top" Width="956"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <TextBlock x:ConnectionId='13' x:Name="BTName" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="Wrap" Text="Name: " VerticalAlignment="Top" Width="50"/>
-                    <TextBlock x:ConnectionId='14' x:Name="textBlockBTName" HorizontalAlignment="Left" Height="35" Margin="10,10,0,10" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="1004" ToolTipService.ToolTip=""/>
+                    <TextBlock x:ConnectionId='24' x:Name="BTName" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="Wrap" Text="Name: " VerticalAlignment="Top" Width="50"/>
+                    <TextBlock x:ConnectionId='25' x:Name="textBlockBTName" HorizontalAlignment="Left" Height="35" Margin="10,10,0,10" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="1004" ToolTipService.ToolTip=""/>
                 </StackPanel>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBlock x:ConnectionId='11' x:Name="SendText" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="NoWrap"  Text="Send: " VerticalAlignment="Top" Width="50"/>
-                <TextBox x:ConnectionId='12' x:Name="textBoxSendText" Text="Send Me" HorizontalAlignment="Left" Height="100" Margin="10" TextWrapping="Wrap"  VerticalAlignment="Top" Width="800" ToolTipService.ToolTip="" AcceptsReturn="True"/>
+                <TextBlock x:ConnectionId='22' x:Name="SendText" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="NoWrap"  Text="Send: " VerticalAlignment="Top" Width="50"/>
+                <TextBox x:ConnectionId='23' x:Name="textBoxSendText" Text="Send Me" HorizontalAlignment="Left" Height="100" Margin="10" TextWrapping="Wrap"  VerticalAlignment="Top" Width="800" ToolTipService.ToolTip="" AcceptsReturn="True"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <TextBlock x:ConnectionId='9' x:Name="RecvdText" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="NoWrap" Text="Recvd: " VerticalAlignment="Top" Width="50"/>
-                <TextBlock x:ConnectionId='10' x:Name="textBoxRecvdText" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="800" Height="Auto" ToolTipService.ToolTip=""/>
+                <TextBlock x:ConnectionId='20' x:Name="RecvdText" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="NoWrap" Text="Recvd: " VerticalAlignment="Top" Width="50"/>
+                <TextBlock x:ConnectionId='21' x:Name="textBoxRecvdText" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="800" Height="Auto" ToolTipService.ToolTip=""/>
             </StackPanel>
         </StackPanel>
     </Grid>

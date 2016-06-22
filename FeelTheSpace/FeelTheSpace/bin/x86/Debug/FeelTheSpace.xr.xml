@@ -19,6 +19,7 @@
       <RootProperty Name="Source" />
       <RootProperty Name="Volume" />
       <RootProperty Name="AutoPlay" />
+      <RootProperty Name="Balance" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />

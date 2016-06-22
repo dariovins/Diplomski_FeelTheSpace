@@ -12,12 +12,24 @@
     </Page.Resources>
 
     <Grid  x:Name="Layout" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <MediaElement Name="D_blize" Source="Assets/D_blize.mp3" Volume="0.4" AutoPlay="False"/>
-        <MediaElement Name="D_dalje" Source="Assets/D_dalje.mp3" Volume="1" AutoPlay="False"/>
-        <MediaElement Name="C_blize" Source="Assets/C_blize.mp3" Volume="0.7" AutoPlay="False"/>
-        <MediaElement Name="C_dalje" Source="Assets/C_dalje.mp3" Volume="0.2" AutoPlay="False"/>
-        <MediaElement Name="L_blize" Source="Assets/L_blize.mp3" Volume="1" AutoPlay="False"/>
-        <MediaElement Name="L_dalje" Source="Assets/L_dalje.mp3" Volume="0.6" AutoPlay="False"/>
+        <MediaElement Name="C1_beep" Source="Assets/Center/C1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="C2_beep" Source="Assets/Center/C2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="C3_beep" Source="Assets/Center/C3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="L1_beep" Source="Assets/Left/L1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="L2_beep" Source="Assets/Left/L2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="L3_beep" Source="Assets/Left/L3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="R1_beep" Source="Assets/Right/R1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="R2_beep" Source="Assets/Right/R2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="R3_beep" Source="Assets/Right/R3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="RC1_beep" Source="Assets/RC/RC1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="RC2_beep" Source="Assets/RC/RC2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="RC3_beep" Source="Assets/RC/RC3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="LC1_beep" Source="Assets/LC/LC1_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="LC2_beep" Source="Assets/LC/LC2_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="LC3_beep" Source="Assets/LC/LC3_beep.mp3" Volume="1" AutoPlay="False"/>
+        <MediaElement Name="left_intro" Source="Assets/Intro/left_intro.mp3" Volume="1" AutoPlay="False"  Balance="-1"/>
+        <MediaElement Name="right_intro" Source="Assets/Intro/right_intro.mp3" Volume="1" AutoPlay="False" Balance="1"/>
+
 
 
         <StackPanel Orientation="Vertical">

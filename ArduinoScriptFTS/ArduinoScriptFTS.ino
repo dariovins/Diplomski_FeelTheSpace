@@ -1,7 +1,7 @@
 #include <NewPing.h>
 
 #define SONAR_NUM     3 // Broj senzora
-#define MAX_DISTANCE 250 // Maksimalna udaljenost (u cm) koju senzor doseze
+#define MAX_DISTANCE 200 // Maksimalna udaljenost (u cm) koju senzor doseze
 #define PING_INTERVAL 33 // Milisekundi izmedju svakog prozivanja senzora.
 
 unsigned long pingTimer[SONAR_NUM]; // Cuva vremena kad bi se prozivanje za svaki senzor trebalo desiti
@@ -14,11 +14,10 @@ String side = "x ";
 
 int globalCounter = 9;
 
-NewPing sonar[SONAR_NUM] = {     // Niz senzora
-  NewPing(4, 5, MAX_DISTANCE), // Svaki senzor ima trig (trigger) pin, echo pin i maksimalnu udaljenost
-  NewPing(8, 9, MAX_DISTANCE),
-  NewPing(12, 13, MAX_DISTANCE),
-
+NewPing sonar[SONAR_NUM] = {// Niz senzora; svaki senzor ima trig (trigger) pin, echo pin i maksimalnu udaljenost 
+  NewPing(12, 13, MAX_DISTANCE), //Lijevi
+  NewPing(8, 9, MAX_DISTANCE), //Srednji
+  NewPing(4, 5, MAX_DISTANCE) //Desni
 };
 
 //===================================VARIJABLE===============================================
@@ -55,11 +54,11 @@ void sendResults()
     }
   }
 
-  if (globalCounter == 0 && abs(cm[1] - value) <= 10 || globalCounter == 1 && abs(cm[0] - value) <= 10)
+  if (globalCounter == 0 && abs(cm[1] - value) <= 7 || globalCounter == 1 && abs(cm[0] - value) <= 7)
   {
     side = sides[3];
   }
-  else if (globalCounter == 1 && abs(cm[2] - value) <= 10 || globalCounter == 2 && abs(cm[1] - value) <= 10)
+  else if (globalCounter == 1 && abs(cm[2] - value) <= 7 || globalCounter == 2 && abs(cm[1] - value) <= 7)
   {
     side = sides[4];
   }
@@ -68,7 +67,7 @@ void sendResults()
     Serial.print(side + value + "x");
     restartValues();
   }
-  else if (value <= 250 && value >= 100)
+  else if (value <= 200 && value >= 100)
   {
     Serial.print(side + value);
     restartValues();

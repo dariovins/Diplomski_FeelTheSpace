@@ -303,45 +303,45 @@ namespace FeelTheSpace
                    return;
                 if (side == 'l')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     L1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
                     L2_beep.Play();
                 else
                     L3_beep.Play();
             }
             else if (side == 'c')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     C1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
                     C2_beep.Play();
                 else
                     C3_beep.Play();
             }
             else if (side == 'r')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     R1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
                     R2_beep.Play();
                 else
                     R3_beep.Play();
             }
             else if(side == 'a')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     LC1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
                     LC2_beep.Play();
                 else
                     LC3_beep.Play();
             }
             else if(side== 'b')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     RC1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 150)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
                     RC2_beep.Play();
                 else
                     RC3_beep.Play();

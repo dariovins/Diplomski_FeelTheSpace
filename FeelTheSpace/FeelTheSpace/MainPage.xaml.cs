@@ -8,12 +8,14 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
+using Windows.ApplicationModel.Core;
 using Windows.Devices.Bluetooth.Rfcomm;
 using Windows.Devices.Enumeration;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.Networking.Sockets;
 using Windows.Storage.Streams;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -56,23 +58,22 @@ namespace FeelTheSpace
         }
 
 
+        public async Task BluetoothConection()
+        {
+            await Task.Delay(2000);
+            CheckBluetooth.Play();
+            await Task.Delay(3500);
+            CoreApplication.Exit();
+        }
 
         private async void InitializeSounds()
         {
-            //sounds.Add(D_blize);
-            //sounds.Add(D_dalje);
-            //sounds.Add(C_blize);
-            //sounds.Add(C_dalje);
-            //sounds.Add(L_blize);
-            //sounds.Add(L_dalje);
-            //sounds.Add(C1_beep);
-            await PlayIntro();
-            
+            await PlayIntro();  
         }
 
         public async Task PlayIntro()
         {
-            await Task.Delay(1000);
+            await Task.Delay(2000);
             right_intro.Play();
             while (right_intro.CurrentState == MediaElementState.Playing)
                 continue;
@@ -100,7 +101,8 @@ namespace FeelTheSpace
 
                 if (numDevices == 0)
                 {
-                    Debug.WriteLine("InitializeRfcommDeviceService: No paired devices found.");
+                    // Debug.WriteLine("InitializeRfcommDeviceService: No paired devices found.");
+                    MessageDialog md = new MessageDialog("InitializeRfcommDeviceService: No paired devices found.", "No devices");
                 }
                 else
                 {
@@ -111,7 +113,7 @@ namespace FeelTheSpace
                     }
                 }
                 PairedDevices.Source = _pairedDevices;
-                Debug.WriteLine(_pairedDevices[0].Name);
+                //Debug.WriteLine(_pairedDevices[0].Name);
 
                 //Metoda koja iz prethodno napunjene kolekcije potencijalnih konekcija
                 //pokusava uspostaviti konekciju sa nasim uredjajem
@@ -162,21 +164,26 @@ namespace FeelTheSpace
                 catch (Exception ex)
                 {
                     success = false;
-                    Debug.WriteLine("Connect:" + ex.Message);
+                    BluetoothConection();
+                   // Debug.WriteLine("Connect:" + ex.Message);
                 }
-                // If the connection was successful, the RemoteAddress field will be populated
                 if (success)
                 {
-
                     string msg = String.Format("Connected to {0}!", _socket.Information.RemoteAddress.DisplayName);
-                    Debug.WriteLine(msg);
+                   // Debug.WriteLine(msg);
                     //Metoda koja aktivira slusanje
                     Listen();
                 }
             }
+            catch (NullReferenceException ex)
+            {
+                // var dialog = new MessageDialog("Provjerite da li vam je uključen bluetooth na uređaju");
+                // await dialog.ShowAsync();
+                BluetoothConection();
+            }
             catch (Exception ex)
             {
-                Debug.WriteLine("Overall Connect: " + ex.Message);
+                //Debug.WriteLine("Overall Connect: " + ex.Message);
                 _socket.Dispose();
                 _socket = null;
             }
@@ -207,20 +214,19 @@ namespace FeelTheSpace
             catch (Exception ex)
             {
 
-                this.textBlockBTName.Text = "";
-                this.TxtBlock_SelectedID.Text = "";
+                
                 if (ex.GetType().Name == "TaskCanceledException")
                 {
                     Debug.WriteLine("Listen: Reading task was cancelled, closing device and cleaning up");
                 }
                 else
                 {
-                    Debug.WriteLine("Listen: " + ex.Message);
+                   // Debug.WriteLine("Listen: " + ex.Message);
                 }
             }
             finally
             {
-                // Cleanup once complete
+                // Očisti kada je završeno
                 if (dataReaderObject != null)
                 {
                     dataReaderObject.DetachStream();
@@ -260,8 +266,7 @@ namespace FeelTheSpace
                 try
                 {
                     string recvdtxt = dataReaderObject.ReadString(bytesRead);
-                    Debug.WriteLine(recvdtxt);
-                    //this.textBoxRecvdText.Text += recvdtxt;
+                    //Debug.WriteLine(recvdtxt);
 
                     value = Regex.Split(recvdtxt, @"\D+");
                     side = recvdtxt[0];
@@ -271,7 +276,7 @@ namespace FeelTheSpace
                 }
                 catch (Exception ex)
                 {
-                    Debug.WriteLine("ReadAsync: " + ex.Message);
+                   // Debug.WriteLine("ReadAsync: " + ex.Message);
                 }
 
             }
@@ -281,8 +286,6 @@ namespace FeelTheSpace
 
         private async Task playSound(char side, string v)
         {
-            //if (L_blize.CurrentState == MediaElementState.Playing || L_dalje.CurrentState == MediaElementState.Playing || D_blize.CurrentState == MediaElementState.Playing || D_dalje.CurrentState == MediaElementState.Playing || C_blize.CurrentState == MediaElementState.Playing || C_dalje.CurrentState == MediaElementState.Playing)
-            //    return;
             if (C1_beep.CurrentState == MediaElementState.Playing || 
                 C2_beep.CurrentState == MediaElementState.Playing ||
                 C3_beep.CurrentState == MediaElementState.Playing || 
@@ -303,51 +306,49 @@ namespace FeelTheSpace
                    return;
                 if (side == 'l')
             {
-                if (Convert.ToInt16(v) <= 70)
+                if (Convert.ToInt16(v) <= 80)
                     L1_beep.Play();
-                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
                     L2_beep.Play();
                 else
                     L3_beep.Play();
             }
             else if (side == 'c')
             {
-                if (Convert.ToInt16(v) <= 70)
+                if (Convert.ToInt16(v) <= 80)
                     C1_beep.Play();
-                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
                     C2_beep.Play();
                 else
                     C3_beep.Play();
             }
             else if (side == 'r')
             {
-                if (Convert.ToInt16(v) <= 70)
+                if (Convert.ToInt16(v) <= 80)
                     R1_beep.Play();
-                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
                     R2_beep.Play();
                 else
                     R3_beep.Play();
             }
             else if(side == 'a')
             {
-                if (Convert.ToInt16(v) <= 70)
+                if (Convert.ToInt16(v) <= 80)
                     LC1_beep.Play();
-                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
                     LC2_beep.Play();
                 else
                     LC3_beep.Play();
             }
             else if(side== 'b')
             {
-                if (Convert.ToInt16(v) <= 70)
+                if (Convert.ToInt16(v) <= 80)
                     RC1_beep.Play();
-                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 130)
+                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
                     RC2_beep.Play();
                 else
                     RC3_beep.Play();
             }
-
-
 
         }
 

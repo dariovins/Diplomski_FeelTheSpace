@@ -1,7 +1,7 @@
 #include <NewPing.h>
 
 #define SONAR_NUM     3 // Broj senzora
-#define MAX_DISTANCE 200 // Maksimalna udaljenost (u cm) koju senzor doseze
+#define MAX_DISTANCE 250 // Maksimalna udaljenost (u cm) koju senzor doseze
 #define PING_INTERVAL 33 // Milisekundi izmedju svakog prozivanja senzora.
 
 unsigned long pingTimer[SONAR_NUM]; // Cuva vremena kad bi se prozivanje za svaki senzor trebalo desiti
@@ -67,7 +67,7 @@ void sendResults()
     Serial.print(side + value + "x");
     restartValues();
   }
-  else if (value <= 200 && value >= 100)
+  else if (value <= 250 && value >= 100)
   {
     Serial.print(side + value);
     restartValues();

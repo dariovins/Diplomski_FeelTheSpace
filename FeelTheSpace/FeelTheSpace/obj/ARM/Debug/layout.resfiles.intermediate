@@ -2,6 +2,8 @@ WinMetadata\Windows.winmd
 Assets\Center\C1_beep.mp3
 Assets\Center\C2_beep.mp3
 Assets\Center\C3_beep.mp3
+Assets\CheckBluetooth.mp3
+Assets\FeelTheSpaceLogo.jpg
 Assets\Intro\left_intro.mp3
 Assets\Intro\right_intro.mp3
 Assets\LC\LC1_beep.mp3
@@ -18,7 +20,9 @@ Assets\Right\R1_beep.mp3
 Assets\Right\R2_beep.mp3
 Assets\Right\R3_beep.mp3
 Assets\SplashScreen.scale-200.png
+Assets\Square150x150Logo.scale-100.png
 Assets\Square150x150Logo.scale-200.png
+Assets\Square44x44Logo.scale-100.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png

@@ -12,6 +12,19 @@
     </Page.Resources>
 
     <Grid  x:Name="Layout" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+
+        <RelativePanel Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Source="./Assets/FeelTheSpaceLogo.jpg" />
+        </RelativePanel>
+        <RelativePanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock TextAlignment="Center" TextWrapping="Wrap" Text="Završni rad Prvog ciklusa studija &#x0a; Student: Timur Ćerimagić "/>
+        </RelativePanel>
+
+        <MediaElement Name="CheckBluetooth" Source="Assets/CheckBluetooth.mp3" Volume="1" AutoPlay="False"/>
         <MediaElement Name="C1_beep" Source="Assets/Center/C1_beep.mp3" Volume="1" AutoPlay="False"/>
         <MediaElement Name="C2_beep" Source="Assets/Center/C2_beep.mp3" Volume="1" AutoPlay="False"/>
         <MediaElement Name="C3_beep" Source="Assets/Center/C3_beep.mp3" Volume="1" AutoPlay="False"/>
@@ -32,25 +45,6 @@
 
 
 
-        <StackPanel Orientation="Vertical">
-            <StackPanel Orientation="Vertical">
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock x:Name="ID" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="Wrap" Text="Id: " VerticalAlignment="Top" Width="28"/>
-                    <TextBlock x:Name="TxtBlock_SelectedID" HorizontalAlignment="Left" Height="25" Margin="10" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top" Width="956"/>
-                </StackPanel>
-                <StackPanel Orientation="Horizontal">
-                    <TextBlock x:Name="BTName" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="Wrap" Text="Name: " VerticalAlignment="Top" Width="50"/>
-                    <TextBlock x:Name="textBlockBTName" HorizontalAlignment="Left" Height="35" Margin="10,10,0,10" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="1004" ToolTipService.ToolTip=""/>
-                </StackPanel>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock x:Name="SendText" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="NoWrap"  Text="Send: " VerticalAlignment="Top" Width="50"/>
-                <TextBox x:Name="textBoxSendText" Text="Send Me" HorizontalAlignment="Left" Height="100" Margin="10" TextWrapping="Wrap"  VerticalAlignment="Top" Width="800" ToolTipService.ToolTip="" AcceptsReturn="True"/>
-            </StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock x:Name="RecvdText" HorizontalAlignment="Left" Height="23" Margin="10" TextWrapping="NoWrap" Text="Recvd: " VerticalAlignment="Top" Width="50"/>
-                <TextBlock x:Name="textBoxRecvdText" HorizontalAlignment="Left" Margin="10" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="800" Height="Auto" ToolTipService.ToolTip=""/>
-            </StackPanel>
-        </StackPanel>
+        
     </Grid>
 </Page>

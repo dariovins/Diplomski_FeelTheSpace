@@ -39,7 +39,6 @@ void loop() {
       cm[currentSensor] = sonar[currentSensor].ping_median(10) / US_ROUNDTRIP_CM;
     }
   }
-  // Other code that *DOESN'T* analyze ping results can go here.
 }
 
 void sendResults()

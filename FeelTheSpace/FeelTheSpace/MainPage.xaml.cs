@@ -266,7 +266,7 @@ namespace FeelTheSpace
                 try
                 {
                     string recvdtxt = dataReaderObject.ReadString(bytesRead);
-                    //Debug.WriteLine(recvdtxt);
+                    Debug.WriteLine(recvdtxt);
 
                     value = Regex.Split(recvdtxt, @"\D+");
                     side = recvdtxt[0];
@@ -306,52 +306,52 @@ namespace FeelTheSpace
                    return;
                 if (side == 'l')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     L1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 120)
                     L2_beep.Play();
                 else
                     L3_beep.Play();
             }
             else if (side == 'c')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     C1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 120)
                     C2_beep.Play();
                 else
                     C3_beep.Play();
             }
             else if (side == 'r')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     R1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 120)
                     R2_beep.Play();
                 else
                     R3_beep.Play();
             }
             else if(side == 'a')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     LC1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 120)
                     LC2_beep.Play();
                 else
                     LC3_beep.Play();
             }
             else if(side== 'b')
             {
-                if (Convert.ToInt16(v) <= 80)
+                if (Convert.ToInt16(v) <= 70)
                     RC1_beep.Play();
-                else if (Convert.ToInt16(v) > 80 && Convert.ToInt16(v) <= 120)
+                else if (Convert.ToInt16(v) > 70 && Convert.ToInt16(v) <= 120)
                     RC2_beep.Play();
                 else
                     RC3_beep.Play();
             }
 
         }
-
+        
 
         //ako zatreba cancel za primanje
         private void CancelReadTask()

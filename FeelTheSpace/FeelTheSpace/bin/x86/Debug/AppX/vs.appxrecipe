@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-07-06T12:36:15.865</Modified>
+      <Modified>2016-07-12T10:34:28.455</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\FeelTheSpace.exe">
       <PackagePath>entrypoint\FeelTheSpace.exe</PackagePath>
-      <Modified>2016-07-02T19:52:13.867</Modified>
+      <Modified>2016-07-12T10:34:27.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tile\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -580,11 +580,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-07-06T12:36:15.436</Modified>
+      <Modified>2016-07-12T10:34:28.189</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Tile\Desktop\fax\Diplomski_FeelTheSpace\FeelTheSpace\FeelTheSpace\bin\x86\Debug\Core\FeelTheSpace.exe">
       <PackagePath>FeelTheSpace.exe</PackagePath>
-      <Modified>2016-07-06T12:36:15.859</Modified>
+      <Modified>2016-07-12T10:34:28.455</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

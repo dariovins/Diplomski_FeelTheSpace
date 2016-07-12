@@ -1,0 +1,1654 @@
+<zuiprezi>
+  <version>8</version>
+  <zui-table>
+    <settings>
+      
+      <autoplay>
+        
+        <delay>4000</delay>
+        
+      </autoplay>
+      
+      <bounds x="-73780.69420663049" y="-42083.356820421235" width="147561.38841326098" height="84166.71364084247"/>
+      <aspectratio>off</aspectratio>
+      <languages>
+        <language>en</language>
+      </languages>
+      <mode type="normal"/>
+    </settings>
+    <object id="39_95982358" type="button" x="0" y="-918.4575751048511" r="0" s="137.4454064952133" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1074.6268656716418</w>
+        <h>600</h>
+      </size>
+      <meta>
+        <parentTemplate>impact</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="31_95982358" type="button" x="2165.5531509186294" y="-916.357924798203" r="0" s="35.830709740795015" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <parentTemplate>impact</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="186_206465529" type="image" x="2126.955338289344" y="-797.9544754601545" r="0" s="24.45667202163395">
+      <source w="965" h="328">4591002712<url>4591002712.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F0%2Fe%2Fd%2Ffc43b5880cf20e5be933da5b612a2a55814c4.png</sourceUrl>
+    <resource><id>4591002712</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/e/d/fc43b5880cf20e5be933da5b612a2a55814c4.png</url></resource></object>
+    <object id="44_95982358" type="text" x="2225.4590974161392" y="-9170.442765972843" r="-1.6017276158877867e-31" s="78.99140593931405" class="strong">
+      <height>32.68359375</height>
+      <width>207.8889623335471</width>
+      <p align="center">
+        <text><![CDATA[FeelTheSpace]]></text>
+      </p>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="58_95982358" type="shape" x="-6413.425479322684" y="-17069.872497187498" r="45.00000000000001" s="80.59220519190491" class="line3">
+      <geom type="line">
+        <sp>-47.65350140231794 0</sp>
+        <ep>47.65350140231794 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>impact</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="226_206465529" type="button" x="-24344.021064309545" y="-26749.60789632667" r="0" s="42.24896975251685" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="59_95982358" type="button" x="-16378.841807355539" y="-24780.718339370433" r="0" s="21.20821354249157" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <parentTemplate>impact</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="60_95982358" type="text" x="-16453.18845700997" y="-28940.911479182432" r="-1.6017276158877872e-31" s="46.755049433900474" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Bluetooth]]></text>
+      </p>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="61_95982358" type="text" x="-16441.533773103816" y="-23630.414137081225" r="-2.7759820227195342e-31" s="26.977427536476245" class="body">
+      <height>163.41796875</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Dvosmjerna komunikacija]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Kratak domet]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Master - slave odnos sa do 7 uređaja]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Upotreba]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="69_95982358" type="shape" x="-18096.494965667414" y="-3219.2233695135383" r="-10.989741104693502" s="80.59220519190488" class="line3">
+      <geom type="line">
+        <sp>73.56013172570395 0</sp>
+        <ep>-73.56013172570397 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>impact</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="230_206465529" type="button" x="34910.605102087036" y="24679.50160140704" r="0" s="58.10970023043139" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="73_95982358" type="shape" x="14905.106456585563" y="14278.179268074691" r="50.917442611270786" s="80.59220519190485" class="line3">
+      <geom type="line">
+        <sp>-60.88573669344901 0</sp>
+        <ep>60.88573669344901 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentTemplate>impact</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+    </object>
+    <object id="0_30863873" type="text" x="-33518.2694770913" y="31909.279386570957" r="0" s="222.7896713357776" class="head head-background">
+      <height>57.6</height>
+      <width>299.0667139516119</width>
+      <p>
+        <text><![CDATA[Korištenje Arduino platforme za pomoć osobama oštećenog vida]]></text>
+      </p>
+    </object>
+    <object id="228_206465529" type="button" x="44521.861742158304" y="-16731.08607325121" r="0" s="68.95322169781552" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="229_206465529" type="button" x="57877.79001846874" y="-25059.91746668529" r="0" s="37.21043729326388" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="20_206465529" type="shape" x="47516.17271262563" y="-26291.87660452441" r="143.33664683685075" s="51.32741641653062" class="line3">
+      <geom type="line">
+        <sp>-66.93624642129471 0</sp>
+        <ep>66.93624642129471 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="21_206465529" type="shape" x="47469.97425018526" y="-12211.186200654956" r="33.01052837611702" s="51.32741641653061" class="line3">
+      <geom type="line">
+        <sp>-51.37909568213602 0</sp>
+        <ep>51.379095682136025 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="22_206465529" type="shape" x="36789.202333847534" y="-7681.469767385609" r="95.34159221710506" s="51.32741641653069" class="line3">
+      <geom type="line">
+        <sp>-40.349717011750336 0</sp>
+        <ep>40.34971701175033 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="23_206465529" type="shape" x="32043.542232186788" y="-26818.873154038185" r="51.02519973434299" s="51.32741641653063" class="line3">
+      <geom type="line">
+        <sp>-35.78752992251811 0</sp>
+        <ep>35.78752992251812 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="24_206465529" type="button" x="38059.330353868" y="-18416.580238684164" r="-2.041987541485984e-15" s="26.514414498040523" class="circle">
+      <type>circle</type>
+      <size>
+        <w>610.5</w>
+        <h>610.5</h>
+      </size>
+    </object>
+    <object id="231_206465529" type="button" x="59621.55558382934" y="-6310.97128420503" r="0" s="26.455670596875134" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="25_206465529" type="button" x="54013.53022827481" y="-8426.281876801886" r="3.66760874520952e-15" s="14.76223551531014" class="circle">
+      <type>circle</type>
+      <size>
+        <w>600.5</w>
+        <h>600.5</h>
+      </size>
+    </object>
+    <object id="26_206465529" type="button" x="27456.488902129397" y="-32161.756265848326" r="-7.298723871063713e-15" s="14.8360466928867" class="circle">
+      <type>circle</type>
+      <size>
+        <w>599</w>
+        <h>599</h>
+      </size>
+    </object>
+    <object id="28_206465529" type="button" x="36390.978649295714" y="-754.6609611923573" r="7.1215703790476e-15" s="15.205102580769461" class="circle">
+      <type>circle</type>
+      <size>
+        <w>587</w>
+        <h>587</h>
+      </size>
+    </object>
+    <object id="29_206465529" type="text" x="38058.234466329246" y="-22432.401649129435" r="4.855041708496038e-15" s="44.60691159876012" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Arduino]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="24_206465529"/>
+      </layout>
+    </object>
+    <object id="40_206465529" type="image" x="38187.48620817208" y="-13611.298856979542" r="-1.7378303348131506e-14" s="3.1154999996369233">
+      <source w="1280" h="871">4590972490<url>4590972490.png</url></source>
+      <sourceUrl>Arduino_Logo.svg.png</sourceUrl>
+    <resource><id>4590972490</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/d/a/3/515aa470058457cdc0b6b74a5a0894e225d1a.png</url></resource></object>
+    <object id="30_206465529" type="text" x="38005.47423002809" y="-18281.823032867458" r="8.414357328083152e-15" s="25.737962847902004" class="body">
+      <height>163.41796875</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Open-source platforma]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Jednostavan hardver i softver]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Mikrokontroler na PCB-u]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Ulazi i izlazi]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Arduino IDE]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="24_206465529"/>
+      </layout>
+    </object>
+    <object id="31_206465529" type="text" x="27417.547432132982" y="-34340.792403808555" r="-6.457050315936e-47" s="24.489474148113473" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Historija]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="26_206465529"/>
+      </layout>
+    </object>
+    <object id="35_206465529" type="text" x="53974.685465888375" y="-10599.90657608528" r="-2.2163356998216157e-15" s="24.428656759511547" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Senzori]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="25_206465529"/>
+      </layout>
+    </object>
+    <object id="178_206465529" type="image" x="55225.466129636225" y="-6682.423853296106" r="-1.4193763004456265e-30" s="3.7630251323046515">
+      <source w="600" h="406">4590997647<url>4590997647.jpg</url></source>
+      <sourceUrl>lm%2035.jpg</sourceUrl>
+    <resource><id>4590997647</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/4/3/c3fd4e2e7c8f4ad2a61d25392f1d489889ccf.jpg</url></resource></object>
+    <object id="179_206465529" type="image" x="55225.38885074678" y="-8703.273830394346" r="7.381719163784393e-15" s="5.500964904668319">
+      <source w="396" h="332">4590997679<url>4590997679.jpg</url></source>
+      <sourceUrl>ultrasonic%20sensor.jpg</sourceUrl>
+    <resource><id>4590997679</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/7/b/94a61e6e2adf95564f3723dabe08d5a87ae7a.jpg</url></resource></object>
+    <object id="36_206465529" type="text" x="53980.77482471119" y="-7594.812294601195" r="-5.761754993160476e-15" s="14.095211651414466" class="body">
+      <height>196.1015625</height>
+      <width>390.9237784827681</width>
+      <p>
+        <text><![CDATA[Digitalni]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[]]></text>
+      </p>
+      <p>
+        <text><![CDATA[Analogni]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="25_206465529"/>
+      </layout>
+    </object>
+    <object id="37_206465529" type="text" x="36351.86802184113" y="-2943.1625922227236" r="6.6038086753918104e-15" s="24.59585372750751" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Arduino IDE]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="28_206465529"/>
+      </layout>
+    </object>
+    <object id="38_206465529" type="text" x="36344.57741755173" y="-613.6521032249656" r="7.630117206999256e-15" s="14.191683458054452" class="body">
+      <height>98.05078125</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Cross development]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Razvojni alati]]></text>
+      </p>
+      <p listType="bullet" indent="2">
+        <text><![CDATA[Arduino IDE]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="28_206465529"/>
+      </layout>
+    </object>
+    <object id="39_206465529" type="shape" x="21767.460467479934" y="-13678.645961923949" r="-25.608311982954184" s="80.67153114289326" class="line3">
+      <geom type="line">
+        <sp>-102.10845897679144 0</sp>
+        <ep>102.10845897679144 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="105_206465529" type="button" x="27547.31141162759" y="-31605.51415375792" r="-2.4881658237616635e-14" s="5.983957531439256" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>1328.7079258278368</w>
+        <h>747.3982082781581</h>
+      </size>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+      <layout>
+        <frametype value="OVERVIEW"/>
+      </layout>
+    </object>
+    <object id="106_206465529" type="shape" x="27971.558885718918" y="-31677.258842664145" r="-7.877197788971969e-15" s="6.873269597291647" class="line3">
+      <geom type="arrow">
+        <sp>-452.8512833386006 0</sp>
+        <ep>452.8512833386006 0</ep>
+        <t>7</t>
+      </geom>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="107_206465529" type="button" x="24856.717113525774" y="-32606.0540697086" r="-2.3935003414667455e-14" s="2.262047058728037" class="bracket">
+      <type>bracket</type>
+      <size>
+        <w>856.7</w>
+        <h>481.9</h>
+      </size>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="108_206465529" type="persistentgroup" x="24856.71711352573" y="-31834.57244130969" r="-3.128811194148934e-14" s="1.2978276903391377">
+      <m o="109_206465529"/>
+      <m o="110_206465529"/>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="109_206465529" type="shape" x="24856.717113525727" y="-31676.14684825868" r="1.0124440648158626e-14" s="4.18636598038308" class="poly4">
+      <style borderThickness="NaN"/>
+      <style borderThickness="NaN"/>
+      <geom type="circle">
+        <r>20</r>
+      </geom>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="110_206465529" type="shape" x="24857.616117486145" y="-31928.710773359504" r="-90.00000000000001" s="3.210728429693332" class="line3">
+      <geom type="line">
+        <sp>-42.104418948530466 0</sp>
+        <ep>42.104418948530466 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="111_206465529" type="text" x="24856.73320427358" y="-31444.649144410407" r="-8.002975631977472e-15" s="6.765246648816292" class="body">
+      <height>32.68359375</height>
+      <width>-54.890625</width>
+      <p>
+        <text><![CDATA[2002]]></text>
+      </p>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="112_206465529" type="text" x="26690.84650772735" y="-31932.564852851552" r="-8.002975631977472e-15" s="6.765246648816292" class="body">
+      <height>32.68359375</height>
+      <width>-54.890625</width>
+      <p>
+        <text><![CDATA[2004]]></text>
+      </p>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="113_206465529" type="persistentgroup" x="26690.57281707161" y="-31517.648901063567" r="-1.844208432188489e-14" s="1.1009216026604">
+      <m o="114_206465529"/>
+      <m o="115_206465529"/>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="114_206465529" type="shape" x="26690.572817071614" y="-31676.339266455576" r="1.8360197285037473e-14" s="4.186365980383075" class="poly4">
+      <style borderThickness="NaN"/>
+      <style borderThickness="NaN"/>
+      <geom type="circle">
+        <r>20</r>
+      </geom>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="115_206465529" type="shape" x="26691.80894751706" y="-31423.24579667276" r="-89.99999999999997" s="3.210728429693331" class="line3">
+      <geom type="line">
+        <sp>-42.104418948530466 0</sp>
+        <ep>42.104418948530466 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="116_206465529" type="persistentgroup" x="28432.617741170296" y="-31834.7648595066" r="-3.128811194148934e-14" s="1.2978276903391377">
+      <m o="117_206465529"/>
+      <m o="118_206465529"/>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="117_206465529" type="shape" x="28432.617741170292" y="-31676.339266455554" r="1.0124440648158626e-14" s="4.18636598038308" class="poly4">
+      <style borderThickness="NaN"/>
+      <style borderThickness="NaN"/>
+      <geom type="circle">
+        <r>20</r>
+      </geom>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="118_206465529" type="shape" x="28433.516745130673" y="-31928.90319155644" r="-90.00000000000001" s="3.210728429693332" class="line3">
+      <geom type="line">
+        <sp>-42.104418948530466 0</sp>
+        <ep>42.104418948530466 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="119_206465529" type="button" x="28438.405079164848" y="-32601.446674411967" r="-2.3935003414667455e-14" s="2.262047058728037" class="bracket">
+      <type>bracket</type>
+      <size>
+        <w>856.7</w>
+        <h>481.9</h>
+      </size>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="120_206465529" type="button" x="26690.6290048191" y="-30750.453707872675" r="-2.3935003414667455e-14" s="2.262047058728037" class="bracket">
+      <type>bracket</type>
+      <size>
+        <w>856.7</w>
+        <h>481.9</h>
+      </size>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="121_206465529" type="persistentgroup" x="30055.271822833114" y="-31513.811177974672" r="-1.844208432188489e-14" s="1.1009216026604">
+      <m o="122_206465529"/>
+      <m o="123_206465529"/>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="122_206465529" type="shape" x="30055.271822833118" y="-31672.50154336678" r="1.8360197285037466e-14" s="4.1863659803830755" class="poly4">
+      <style borderThickness="NaN"/>
+      <style borderThickness="NaN"/>
+      <geom type="circle">
+        <r>20</r>
+      </geom>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="123_206465529" type="shape" x="30056.50795327852" y="-31419.408073583767" r="-89.99999999999997" s="3.2107284296933316" class="line3">
+      <geom type="line">
+        <sp>-42.104418948530466 0</sp>
+        <ep>42.104418948530466 0</ep>
+        <t>8</t>
+      </geom>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="125_206465529" type="text" x="28431.10668327026" y="-31445.093837734312" r="-8.002975631977472e-15" s="6.765246648816292" class="body">
+      <height>32.68359375</height>
+      <width>-54.890625</width>
+      <p>
+        <text><![CDATA[2005]]></text>
+      </p>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="126_206465529" type="text" x="30054.72616821166" y="-31932.121916635086" r="-8.002975631977472e-15" s="6.765246648816292" class="body">
+      <height>32.68359375</height>
+      <width>-54.890625</width>
+      <p>
+        <text><![CDATA[2016]]></text>
+      </p>
+      <meta>
+        <parentObjlib>timeline-2</parentObjlib>
+      </meta>
+    </object>
+    <object id="127_206465529" type="text" x="24856.641484455467" y="-33003.6481234646" r="-9.465897597373691e-15" s="3.5748131330022863" class="strong">
+      <height>32.68359375</height>
+      <width>409.346143553921</width>
+      <p align="center">
+        <text><![CDATA[Banzi regrutovan na IDII]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="107_206465529"/>
+      </layout>
+    </object>
+    <object id="128_206465529" type="text" x="24853.912657124627" y="-32631.737651691175" r="1.1777506792770805e-14" s="2.2985384354873477" class="body">
+      <height>130.734375</height>
+      <width>642.4221214502834</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Vanredni profesor na fakultetu]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Promocija interaktivnog dizajna]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[BASIC Stamp mikrokontroler]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Processing jezik (Banzi i Reas)]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="107_206465529"/>
+      </layout>
+    </object>
+    <object id="129_206465529" type="text" x="26690.553375748797" y="-31148.0477616287" r="-9.465897597373691e-15" s="3.5748131330022863" class="strong">
+      <height>32.68359375</height>
+      <width>409.346143553921</width>
+      <p align="center">
+        <text><![CDATA[Wiring]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="120_206465529"/>
+      </layout>
+    </object>
+    <object id="130_206465529" type="text" x="26690.754773657325" y="-30815.416986136916" r="1.1777506792770805e-14" s="2.2985384354873477" class="body">
+      <height>98.05078125</height>
+      <width>642.4221214502834</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Razvojna platforma (IDE i PCB)]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Hernando Barragán "Wiring" magistarski rad]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Mentori: Massimo Banzi i Casey Reas]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="120_206465529"/>
+      </layout>
+    </object>
+    <object id="131_206465529" type="text" x="28438.329450094505" y="-32999.040728167995" r="-9.465897597373691e-15" s="3.5748131330022863" class="strong">
+      <height>32.68359375</height>
+      <width>409.346143553921</width>
+      <p align="center">
+        <text><![CDATA[Arduino]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="119_206465529"/>
+      </layout>
+    </object>
+    <object id="132_206465529" type="text" x="28438.47493309222" y="-32589.56696866617" r="1.1777506792770805e-14" s="2.2985384354873477" class="body">
+      <height>163.41796875</height>
+      <width>642.4221214502834</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Odvojen rad na Wiring platformi]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Pristupačna razvojna platforma]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Open-source pristup]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Licenciranje - "Creative Commons"]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[DIY izgled ]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="119_206465529"/>
+      </layout>
+    </object>
+    <object id="143_206465529" type="button" x="29978.879590750068" y="-30630.480334990996" r="-8.97703514077396e-15" s="2.2616920519592973" class="bracket">
+      <type>bracket</type>
+      <size>
+        <w>797.6366322008862</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="140_206465529" type="text" x="30351.868316847267" y="-30576.13644983061" r="3.188607037187671e-14" s="2.7592274022934755" class="body">
+      <height>196.1015625</height>
+      <width>264.68270130377124</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Uno]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Due]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Mega]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[LilyPad]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[MKR1000]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[...]]></text>
+      </p>
+      <layout>
+        <layout-element role="body"/>
+      </layout>
+    </object>
+    <object id="141_206465529" type="image" x="29606.756870260506" y="-30446.745443985325" r="-6.439066460346469" s="0.9769543878440544">
+      <source w="1000" h="744">4590981490<mask x="114" y="0" w="784" h="744"/>
+      <url>4590981490.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F0%2F4%2F7%2Fd56f25f869d732e59669c002cbc2d15b3e784.png</sourceUrl>
+      <layout>
+        <layout-element role="image"/>
+      </layout>
+    <resource><id>4590981490</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/0/4/7/d56f25f869d732e59669c002cbc2d15b3e784.png</url></resource></object>
+    <object id="142_206465529" type="text" x="30054.49148606684" y="-31111.55807646309" r="-1.0627791632133924e-14" s="5.09438893317134" class="strong">
+      <height>32.68359375</height>
+      <width>233.6024877079713</width>
+      <p align="center">
+        <text><![CDATA[Verzije]]></text>
+      </p>
+      <layout>
+        <layout-element role="title"/>
+      </layout>
+    </object>
+    <object id="146_206465529" type="button" x="53578.927083634364" y="-31719.663226422006" r="-1.3776717763188216e-14" s="10.805942231996383" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="148_206465529" type="button" x="52622.16253425738" y="-19389.83831900947" r="3.387381783021357e-14" s="5.995379786340681" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="150_206465529" type="shape" x="52823.77790844873" y="-24724.41763966174" r="-79.27874387016" s="35.60771198079391" class="line1">
+      <geom type="arrow">
+        <sp>82.15110807119848 9.78944748029</sp>
+        <ep>-82.15110807119848 9.789447480289958</ep>
+        <b>19.57889496057996</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="151_206465529" type="button" x="69055.96234794629" y="-17475.921328841796" r="-1.5287416396042952e-14" s="5.995386988100945" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="152_206465529" type="shape" x="63749.21721124285" y="-18451.138890136826" r="-157.02137423835012" s="35.60771198079389" class="line1">
+      <geom type="arrow">
+        <sp>82.30721343568585 9.78131751053754</sp>
+        <ep>-82.30721343568585 9.781317510537498</ep>
+        <b>19.56263502107504</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="153_206465529" type="button" x="59406.11376309582" y="-21209.96308610589" r="-1.2214969938329733e-14" s="5.995231391015684" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="155_206465529" type="shape" x="57817.47899210678" y="-26694.639329057794" r="-173.02076001175337" s="35.60771198079408" class="line1">
+      <geom type="arrow">
+        <sp>117.5182121778224 9.24645719783718</sp>
+        <ep>-117.51821217782242 9.246457197837168</ep>
+        <b>18.492914395674347</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="156_206465529" type="shape" x="55657.963035076835" y="-25335.73749605104" r="48.41657987009917" s="35.60771198079395" class="line1">
+      <geom type="arrow">
+        <sp>-82.41673153711784 0</sp>
+        <ep>82.41673153711784 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="157_206465529" type="shape" x="55685.427774460935" y="-28152.518924250482" r="-41.683734096771204" s="6.183782818200523" class="poly2">
+      <geom type="circle">
+        <r>38.00551831374656</r>
+      </geom>
+    </object>
+    <object id="159_206465529" type="text" x="53541.04621263601" y="-33839.35174486737" r="-1.1629049263697311e-14" s="23.822485671629476" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Uno]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="146_206465529"/>
+      </layout>
+    </object>
+    <object id="160_206465529" type="text" x="53546.98447050815" y="-30908.82567594309" r="-1.587582369270242e-14" s="13.74545399323543" class="body">
+      <height>196.1015625</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Najpopularniji model]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[ATmega328]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[16 MHz]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[14 digitalnih U/I pinova, 6 PWM]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[6 analognih ulaznih pinova]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[5V radni napon]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="146_206465529"/>
+      </layout>
+    </object>
+    <object id="163_206465529" type="text" x="69034.94516349306" y="-18651.973605401716" r="-1.0643670301049909e-14" s="13.21726671802887" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[PWM]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="151_206465529"/>
+      </layout>
+    </object>
+    <object id="176_206465529" type="image" x="69084.49222177446" y="-16330.371629280495" r="-8.487727151605191e-15" s="4.647910759181441">
+      <source w="601" h="197">4590994165<url>4590994165.gif</url></source>
+      <sourceUrl>pwm1.gif</sourceUrl>
+    <resource><id>4590994165</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/9/5/4/9af9ca6056be5c3b6a555224ccc0708074415.gif</url></resource></object>
+    <object id="164_206465529" type="text" x="69045.81304888712" y="-17400.181298511587" r="-2.0342389907110345e-14" s="7.626296184757504" class="body">
+      <height>98.05078125</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Simulacija analog izlaza pomoću digitalnog izlaza]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Duty-cycle]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="151_206465529"/>
+      </layout>
+    </object>
+    <object id="165_206465529" type="text" x="52601.14537505025" y="-20565.889182875482" r="-2.0121033921719865e-14" s="13.217250841224486" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Analogni ulaz]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="148_206465529"/>
+      </layout>
+    </object>
+    <object id="166_206465529" type="text" x="52604.44005407481" y="-19314.03678801109" r="-1.6477610996338433e-14" s="7.626287023921505" class="body">
+      <height>98.05078125</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Kontinualne vrijednosti]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Preciznije => više memorije]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Audio, video industrija ]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="148_206465529"/>
+      </layout>
+    </object>
+    <object id="167_206465529" type="text" x="59385.097124097294" y="-22385.984840815076" r="-1.0086251573537206e-14" s="13.216923692936343" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Digitalni U/I]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="153_206465529"/>
+      </layout>
+    </object>
+    <object id="168_206465529" type="text" x="59388.391721573265" y="-21258.850137885234" r="-2.130895099589812e-14" s="7.626098261010444" class="body">
+      <height>65.3671875</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Diskretne vrijednosti]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Logička 0 i logička 1]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="153_206465529"/>
+      </layout>
+    </object>
+    <object id="171_206465529" type="button" x="64574.74648033074" y="-26574.598193797934" r="-1.6435603450087502e-14" s="6.04843381433862" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="172_206465529" type="image" x="64575.1895029905" y="-26912.229518883792" r="-1.3744321057958682e-14" s="3.4295541468628232">
+      <source w="1103" h="577">4590990073<mask x="80" y="0" w="1023" h="577"/>
+      <url>4590990073.jpg</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F4%2Fa%2F0%2Fb2956651decc025d11079b86630889b9d8079.jpg</sourceUrl>
+      <layout>
+        <layout-element role="image" parent-id="171_206465529"/>
+      </layout>
+    <resource><id>4590990073</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/a/0/b2956651decc025d11079b86630889b9d8079.jpg</url></resource></object>
+    <object id="173_206465529" type="text" x="64575.0956487275" y="-25477.63053741531" r="-2.6227330774686328e-14" s="9.731973706022519" class="strong">
+      <height>32.68359375</height>
+      <width>306.3078079062704</width>
+      <p align="center">
+        <text><![CDATA[Shema]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="171_206465529"/>
+      </layout>
+    </object>
+    <object id="174_206465529" type="image" x="59394.11325755371" y="-20288.78357829925" r="-2.5049069883751742e-14" s="6.226786944187411">
+      <source w="471" h="91">4590991813<url>4590991813.jpg</url></source>
+      <sourceUrl>Digitalni%20signal.jpg</sourceUrl>
+    <resource><id>4590991813</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/7/3/fb240e848258d6319b79bfc35b52da4945388.jpg</url></resource></object>
+    <object id="175_206465529" type="image" x="52622.023267626086" y="-18191.43815028545" r="-4.106597803081458e-15" s="2.3083387153832855">
+      <source w="1159" h="366">4590992779<url>4590992779.jpg</url></source>
+      <sourceUrl>analogni%20signal.jpg</sourceUrl>
+    <resource><id>4590992779</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/7/a/0/523b6630919eab1565ede61f847b6bb7e2a3f.jpg</url></resource></object>
+    <object id="180_206465529" type="shape" x="61381.89159482903" y="-6043.6513789709925" r="-160.73071760437608" s="35.607711980793844" class="line1">
+      <geom type="arrow">
+        <sp>86.4745227992069 -6.070173262370501</sp>
+        <ep>-86.4745227992069 -6.07017326237056</ep>
+        <b>-12.140346524741062</b>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="182_206465529" type="button" x="66902.36738673697" y="-2770.100212621697" r="-1.6017276158877865e-31" s="6.888913740373815" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="184_206465529" type="image" x="66902.63962461712" y="-1563.2431797869172" r="-2.4316485371599424e-15" s="5.5663990136121475">
+      <source w="573" h="242">4590998567<url>4590998567.png</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2Ff%2F2%2F6%2F68261925cf8d8a037e8568f57addb6bf7ae96.png</sourceUrl>
+      <layout>
+        <layout-element role="image" parent-id="182_206465529"/>
+      </layout>
+    <resource><id>4590998567</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/2/6/68261925cf8d8a037e8568f57addb6bf7ae96.png</url></resource></object>
+    <object id="183_206465529" type="text" x="66489.38418249291" y="-3063.638943908985" r="-8.679692135424934e-15" s="7.797238546892216" class="body">
+      <height>163.41796875</height>
+      <width>264.68270130377124</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Tehnologija]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Cijena]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Pouzdanost]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Performanse]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Veličina]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="182_206465529"/>
+      </layout>
+    </object>
+    <object id="185_206465529" type="text" x="66902.2809185172" y="-4364.133316511046" r="-1.6017276158877876e-31" s="14.396118902547713" class="strong">
+      <height>32.68359375</height>
+      <width>233.6024877079713</width>
+      <p align="center">
+        <text><![CDATA[HC-SR04]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="182_206465529"/>
+      </layout>
+    </object>
+    <object id="187_206465529" type="image" x="36313.09737370823" y="1621.9482499984251" r="1.8817320387522074e-14" s="4.315872528059">
+      <source w="665" h="532">4591005666<url>4591005666.jpg</url></source>
+      <sourceUrl>Arduino%20IDE.jpg</sourceUrl>
+    <resource><id>4591005666</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/2/d/be007769bd0c0595386405e4f114b5ccea8d8.jpg</url></resource></object>
+    <object id="189_206465529" type="button" x="22414.959225044055" y="27548.157016737074" r="0" s="25.392866689081615" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="190_206465529" type="button" x="51843.30739044551" y="30232.728126455953" r="0" s="13.557637304296087" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="191_206465529" type="button" x="41883.212998908886" y="14220.658228200668" r="0" s="13.557643454784893" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="194_206465529" type="shape" x="23927.031440681316" y="38434.65377675631" r="0" s="11.702259902690734" class="poly2">
+      <geom type="circle">
+        <r>33.644939613373</r>
+      </geom>
+    </object>
+    <object id="196_206465529" type="text" x="22412.28677392234" y="22539.7516034499" r="0" s="55.98042168604907" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[UWP]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="189_206465529"/>
+      </layout>
+    </object>
+    <object id="197_206465529" type="text" x="22339.8973285985" y="30013.947015216563" r="0" s="32.30042076272028" class="body">
+      <height>228.78515625</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Univerzalna platforma]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Porodica uređaja, ne OS]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[.Appx format pakovanja]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Jedan Store]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Adaptivni UI]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Cortana]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Cloud API]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="189_206465529"/>
+      </layout>
+    </object>
+    <object id="198_206465529" type="text" x="51841.7882718741" y="27573.26840381655" r="0" s="29.888797616038445" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Adaptivni UI]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="190_206465529"/>
+      </layout>
+    </object>
+    <object id="225_206465529" type="image" x="52175.699308607705" y="33149.886322143415" r="0" s="10.388964528072615">
+      <source w="669" h="260">4591021262<url>4591021262.png</url></source>
+      <sourceUrl>1910808-hig-uap-toolkit-03.png</sourceUrl>
+    <resource><id>4591021262</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/4/a/3/fc55c7612703024e24f834bac8bd556c0e9c7.png</url></resource></object>
+    <object id="199_206465529" type="text" x="51803.230703561676" y="30686.108687511743" r="0" s="17.24568536664714" class="body">
+      <height>130.734375</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[XAML]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Efektivni pixel-i]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Grid i Relative Panel]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Tehnike]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="190_206465529"/>
+      </layout>
+    </object>
+    <object id="200_206465529" type="text" x="41835.68587617165" y="11561.197299084293" r="0" s="29.888811175238388" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[Cortana]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="191_206465529"/>
+      </layout>
+    </object>
+    <object id="201_206465529" type="text" x="41823.525074695935" y="15007.988283975912" r="0" s="17.245693190237066" class="body">
+      <height>163.41796875</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Mogućnost pokretanja i korištenja aplikacija glasovnim komandama]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Potencijal nedovoljno iskorišten]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="191_206465529"/>
+      </layout>
+    </object>
+    <object id="202_206465529" type="shape" x="39842.76230967033" y="27951.41539970253" r="14.999999999999993" s="68.43655522204084" class="line3">
+      <geom type="line">
+        <sp>-84.7423597872126 0</sp>
+        <ep>84.74235978721262 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="203_206465529" type="shape" x="32911.730774302436" y="17382.24053079042" r="-30.00000000000027" s="68.4365552220408" class="line3">
+      <geom type="line">
+        <sp>-44.671570523820655 0</sp>
+        <ep>44.67157052382066 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="227_206465529" type="button" x="-43722.07914043696" y="-1211.7742203697146" r="0" s="54.24294787075936" class="invisible">
+      <type>invisible</type>
+      <size>
+        <w>800</w>
+        <h>600</h>
+      </size>
+    </object>
+    <object id="204_206465529" type="button" x="-33099.907375731316" y="-387.79015930550787" r="0" s="21.05881166400888" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+      <meta>
+        <parentTemplate>blank-quick</parentTemplate>
+        <notModifiedByUser>from-template</notModifiedByUser>
+      </meta>
+      <layout>
+        <frametype value="SECTION"/>
+      </layout>
+    </object>
+    <object id="205_206465529" type="text" x="-33173.73028824523" y="-4518.676697281641" r="0" s="46.42568212533482" class="strong">
+      <height>32.68359375</height>
+      <width>220.4993900181616</width>
+      <p align="center">
+        <text><![CDATA[3D (Binaural) zvuk]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="204_206465529"/>
+      </layout>
+    </object>
+    <object id="212_206465529" type="image" x="-28566.923621105183" y="-1400.2178751488166" r="0" s="16.168608935327445">
+      <source w="213" h="200">4591012284<url>4591012284.png</url></source>
+      <sourceUrl>Illu_time_diff.png</sourceUrl>
+    <resource><id>4591012284</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/c/4/e/4a01b9e973d1140fce3669ca99a0098054fa9.png</url></resource></object>
+    <object id="207_206465529" type="shape" x="-27433.65959470114" y="-30446.014234607963" r="15.000000000000018" s="51.32741641653067" class="line3">
+      <geom type="line">
+        <sp>60.72359671799819 0</sp>
+        <ep>-60.72359671799819 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="208_206465529" type="shape" x="-48339.2566618241" y="-3763.8480757077655" r="15.000000000000039" s="51.32741641653068" class="line3">
+      <geom type="line">
+        <sp>109.6885281357215 0</sp>
+        <ep>-109.6885281357215 0</ep>
+        <t>8</t>
+      </geom>
+    </object>
+    <object id="215_206465529" type="image" x="-29029.776531037533" y="3920.8258993294558" r="0" s="16.168608935327438">
+      <source w="213" h="200">4591012604<url>4591012604.png</url></source>
+      <sourceUrl>Illu_masking.png</sourceUrl>
+    <resource><id>4591012604</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/f/3/d/a9cd655bdb2bff709cb2e2e36452fba079eb8.png</url></resource></object>
+    <object id="213_206465529" type="image" x="-31023.371744406282" y="973.1637809285841" r="0" s="16.168608935327445">
+      <source w="213" h="200">4591012353<url>4591012353.png</url></source>
+      <sourceUrl>Illu_level_diff.png</sourceUrl>
+    <resource><id>4591012353</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/e/5/ec61aff6b42bd1865546ccc1df888178d8879.png</url></resource></object>
+    <object id="206_206465529" type="text" x="-33236.04058453495" y="1165.1368151951876" r="0" s="26.78738426185034" class="body">
+      <height>228.78515625</height>
+      <width>390.9237784827681</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Ideja]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Faktori:]]></text>
+      </p>
+      <p listType="bullet" indent="2">
+        <text><![CDATA[ITD]]></text>
+      </p>
+      <p listType="bullet" indent="2">
+        <text><![CDATA[ILD]]></text>
+      </p>
+      <p listType="bullet" indent="2">
+        <text><![CDATA[HRTFS]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Tehnike snimanja]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Reprodukcija]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="204_206465529"/>
+      </layout>
+    </object>
+    <object id="217_206465529" type="button" x="-59339.20522482921" y="-5976.562577764264" r="0" s="12.068876730699865" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="218_206465529" type="image" x="-59338.59788955717" y="-6677.798179613096" r="0" s="8.139540054086373">
+      <source w="754" h="632">4591013831<mask x="0" y="33" w="753" h="565"/>
+      <url>4591013831.jpg</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F8%2F2%2F0%2Ff6a587445468261404c2421c79a7fc68f09e8.jpg</sourceUrl>
+      <meta>
+        <notModifiedByUser>from-frame-layout-switcher</notModifiedByUser>
+      </meta>
+      <layout>
+        <layout-element role="image" parent-id="217_206465529"/>
+      </layout>
+    <resource><id>4591013831</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/8/2/0/f6a587445468261404c2421c79a7fc68f09e8.jpg</url></resource></object>
+    <object id="219_206465529" type="text" x="-59338.50850391467" y="-3787.703803934048" r="0" s="19.41890985497068" class="strong">
+      <height>32.68359375</height>
+      <width>306.3078079062704</width>
+      <p align="center">
+        <text><![CDATA[Realizacija]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="217_206465529"/>
+      </layout>
+    </object>
+    <object id="221_206465529" type="button" x="-35932.864660788386" y="-31191.331981347405" r="0" s="12.06872735881903" class="circle">
+      <type>circle</type>
+      <size>
+        <w>800</w>
+        <h>800</h>
+      </size>
+    </object>
+    <object id="222_206465529" type="text" x="-34419.07678166923" y="-30804.444759138656" r="0" s="13.660026779346802" class="body">
+      <height>261.46875</height>
+      <width>264.68270130377124</width>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Napajanje 3.6 - 6 volti]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Integrisana antena]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Auto konekcija]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Podešavanje primarnog uređaja]]></text>
+      </p>
+      <p listType="bullet" indent="1">
+        <text><![CDATA[Komunikacija sa jednim uređajem]]></text>
+      </p>
+      <layout>
+        <layout-element role="body" parent-id="221_206465529"/>
+      </layout>
+    </object>
+    <object id="223_206465529" type="image" x="-38215.46212388054" y="-30621.924417472896" r="-6.439066460346449" s="14.509738946189339">
+      <source w="320" h="248">4591017522<mask x="15" y="0" w="203" h="248"/>
+      <url>4591017522.jpg</url></source>
+      <sourceUrl>http%3A%2F%2F0103.static.prezi.com.s3.amazonaws.com%2Fmedia%2F3%2F1%2F4%2Fa29686be58b6cec2ca08301b54caed5f05b97.jpg</sourceUrl>
+      <layout>
+        <layout-element role="image" parent-id="221_206465529"/>
+      </layout>
+    <resource><id>4591017522</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/3/1/4/a29686be58b6cec2ca08301b54caed5f05b97.jpg</url></resource></object>
+    <object id="224_206465529" type="text" x="-35933.016144956884" y="-33983.92768755066" r="0" s="25.220642993645843" class="strong">
+      <height>32.68359375</height>
+      <width>233.6024877079713</width>
+      <p align="center">
+        <text><![CDATA[HC-05]]></text>
+      </p>
+      <layout>
+        <layout-element role="title" parent-id="221_206465529"/>
+      </layout>
+    </object>
+  </zui-table>
+  <background>
+    <layer depth="29.9226096720625" fadescale="0.04311700964939731">
+      <object id="background-2143827861" type="image" x="2079.3341800724033" y="2426.6405817448003" r="0" s="46.817848174659005">
+        <source w="3000" h="3000">-2143827861<url>-2143827861.png</url></source>
+        <sourceUrl>Imp.png</sourceUrl>
+      <resource><id>-2143827861</id><url>http://0103.static.prezi.com.s3.amazonaws.com/media/2/6/8/fe88e9df890abb52480f69a0e25d8650a7e64.png</url></resource></object>
+    </layer>
+  </background>
+  <path>
+    <s>
+      <eagle o="39_95982358"/>
+    </s>
+    <s>
+      <eagle o="228_206465529"/>
+    </s>
+    <s>
+      <eagle o="24_206465529"/>
+    </s>
+    <s>
+      <eagle o="228_206465529"/>
+    </s>
+    <s>
+      <eagle o="26_206465529"/>
+    </s>
+    <s>
+      <eagle o="105_206465529"/>
+    </s>
+    <s>
+      <eagle o="107_206465529"/>
+    </s>
+    <s>
+      <eagle o="120_206465529"/>
+    </s>
+    <s>
+      <eagle o="119_206465529"/>
+    </s>
+    <s>
+      <eagle o="143_206465529"/>
+    </s>
+    <s>
+      <eagle o="228_206465529"/>
+    </s>
+    <s>
+      <eagle o="229_206465529"/>
+    </s>
+    <s>
+      <eagle o="146_206465529"/>
+    </s>
+    <s>
+      <eagle o="171_206465529"/>
+    </s>
+    <s>
+      <eagle o="148_206465529"/>
+    </s>
+    <s>
+      <eagle o="153_206465529"/>
+    </s>
+    <s>
+      <eagle o="151_206465529"/>
+    </s>
+    <s>
+      <eagle o="228_206465529"/>
+    </s>
+    <s>
+      <eagle o="231_206465529"/>
+    </s>
+    <s>
+      <eagle o="25_206465529"/>
+    </s>
+    <s>
+      <eagle o="182_206465529"/>
+    </s>
+    <s>
+      <eagle o="228_206465529"/>
+    </s>
+    <s>
+      <eagle o="28_206465529"/>
+    </s>
+    <s>
+      <eagle o="187_206465529"/>
+    </s>
+    <s>
+      <eagle o="39_95982358"/>
+    </s>
+    <s>
+      <eagle o="230_206465529"/>
+    </s>
+    <s>
+      <eagle o="189_206465529"/>
+    </s>
+    <s>
+      <eagle o="191_206465529"/>
+    </s>
+    <s>
+      <eagle o="190_206465529"/>
+    </s>
+    <s>
+      <eagle o="39_95982358"/>
+    </s>
+    <s>
+      <eagle o="226_206465529"/>
+    </s>
+    <s>
+      <eagle o="59_95982358"/>
+    </s>
+    <s>
+      <eagle o="221_206465529"/>
+    </s>
+    <s>
+      <eagle o="39_95982358"/>
+    </s>
+    <s>
+      <eagle o="227_206465529"/>
+    </s>
+    <s>
+      <eagle o="204_206465529"/>
+    </s>
+    <s>
+      <eagle o="217_206465529"/>
+    </s>
+    <s>
+      <eagle o="218_206465529"/>
+    </s>
+    <s>
+      <eagle o="39_95982358"/>
+    </s>
+    <s>
+      <eagle o="31_95982358"/>
+    </s>
+    <s>
+      <eagle o="186_206465529"/>
+    </s>
+    <s>
+      <eagle o="39_95982358"/>
+    </s>
+  </path>
+  <style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('NotoSans-Regular.keg');
+	fontFamily: body;
+	font-class: body;
+	font-style: normal;
+	font-weight: normal;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('LeagueGothic-Regular.keg');
+	fontFamily: head;
+	font-class: head;
+	font-style: normal;
+	font-weight: normal;
+	font-family: LeagueGothic;
+}
+
+@font-face
+{
+	src: url('NotoSans-Bold.keg');
+	fontFamily: strong;
+	font-class: strong;
+	font-style: normal;
+	font-weight: bold;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('NotoSans-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('NotoSans-BoldItalic.keg');
+	font-style: italic;
+	font-weight: bold;
+	font-family: NotoSans;
+}
+
+@font-face
+{
+	src: url('LeagueGothic-Italic.keg');
+	font-style: italic;
+	font-weight: normal;
+	font-family: LeagueGothic;
+}
+
+.line1
+{
+	color: #737373;
+	gradEndColor: #737373;
+	gradStartColor: #737373;
+}
+
+.line2
+{
+	color: #999;
+	gradEndColor: #999;
+	gradStartColor: #999;
+}
+
+.line3
+{
+	color: #50e3c2;
+	gradEndColor: #50e3c2;
+	gradStartColor: #50e3c2;
+}
+
+.line4
+{
+	color: #ccc;
+	gradEndColor: #ccc;
+	gradStartColor: #ccc;
+}
+
+.line5
+{
+	color: #dedede;
+	gradEndColor: #dedede;
+	gradStartColor: #dedede;
+}
+
+.poly1
+{
+	borderColor: #737373;
+	gradEndColor: #737373;
+	gradStartColor: #737373;
+}
+
+.poly2
+{
+	borderColor: #999;
+	gradEndColor: #999;
+	gradStartColor: #999;
+}
+
+.poly3
+{
+	borderColor: #50e3c2;
+	color: #f2f2f2;
+	gradEndColor: #50e3c2;
+	gradStartColor: #50e3c2;
+}
+
+.poly4
+{
+	borderColor: #ccc;
+	color: #f2f2f2;
+	gradEndColor: #ccc;
+	gradStartColor: #ccc;
+}
+
+.poly5
+{
+	borderColor: #e6e6e6;
+	color: #f2f2f2;
+	gradEndColor: #dedede;
+	gradStartColor: #dedede;
+}
+
+Background
+{
+	gradEnd: #f2f2f2;
+	gradStart: #f2f2f2;
+}
+
+Grid
+{
+	color: #b2b2b2;
+}
+
+ZArrow
+{
+	borderColor: #fff;
+	borderThickness: 0;
+	gradEndAlpha: 1;
+	gradEndColor: #000;
+	gradStartAlpha: 1;
+	gradStartColor: #000;
+	lockTintAlpha: 0;
+	thickness: 7;
+}
+
+ZCircle
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCurveLine
+{
+	color: #000;
+}
+
+ZFrame.bracket
+{
+	borderColor: #737373;
+	borderThickness: 0;
+	gradEndAlpha: 0.9;
+	gradEndColor: #737373;
+	gradStartAlpha: 0.9;
+	gradStartColor: #737373;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.circle
+{
+	borderColor: #a6a6a6;
+	borderThickness: 0;
+	gradEndColor: #a6a6a6;
+	gradStartColor: #a6a6a6;
+	padding: 1.03;
+	thickness: 8;
+}
+
+ZFrame.roundrect
+{
+	borderColor: #737373;
+	borderThickness: 20;
+	gradEndAlpha: 0.7;
+	gradEndColor: #e6e6e6;
+	gradStartAlpha: 0.7;
+	gradStartColor: #e6e6e6;
+	padding: 1.03;
+	radius: 3;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.15;
+	padding: 1.2;
+}
+
+ZLabel.body
+{
+	color: #333;
+	fontFamily: body;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.8;
+	background-color: #e6e6e6;
+	background-padding: 5;
+}
+
+ZLabel.head
+{
+	color: #333;
+	fontFamily: head;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 0.8;
+	background-color: #50e3c2;
+	background-padding: 5;
+}
+
+ZLabel.strong
+{
+	color: #333;
+	fontFamily: strong;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.8;
+	background-color: #e6e6e6;
+	background-padding: 5;
+}
+
+ZLine
+{
+	color: #000;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+}
+
+ZMarker
+{
+	alpha: 0.5;
+	color: #318bff;
+}
+
+ZPoly
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+]]></style>
+  <hash>-1bab11bc</hash>
+<sync><oid>6iyfyz0cwwnx</oid><title>koristenje-arduino-platforme-za-pomoc</title><hash>-1bab11bc</hash></sync><config>IHEDdKrZnrqenYhk9RkdqmAxvGK16sEizY3MiOmKQHJJi786Ww+Z3gg6W+PXFAGBUV2mg6u/KOQdxMl4bPX6sE3ehj8PE2jZLy+rbb+WcCFF9+NETL1lWBm6frsY4uGD1zFFVPVwSgS0L5+omyLDyvDFZVAQB/9ue/isa8qKwzf6WWQooy2ix4KmoGCjC5y8KBmTK6yiev9oiBmTRySgtrGMQhE733YWLWiRlsLHMkBYNiuwp7Hs44jAF3/Uy5PYSBoG+XfUjYYiYgJemMghQ+1riZHypgmVz/CQkpFNxpQcYVu/JOd6Mob98Qj3nHGa+pL58EXjnITIKZMB0nb/EQ==</config></zuiprezi>
